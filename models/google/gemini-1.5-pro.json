@@ -1,0 +1,20 @@
+{
+  "model_id": "gemini-1.5-pro",
+  "provider": "google",
+  "display_name": "Gemini 1.5 Pro",
+  "model_family": "gemini-1.5",
+  "modality": "text",
+  "context_window": 2097152,
+  "pricing": {
+    "input_per_mtok": 1.25,
+    "output_per_mtok": 5.00,
+    "cached_per_mtok": 0.315,
+    "currency": "USD",
+    "unit": "per_million_tokens"
+  },
+  "pricing_updated_at": "2026-05-15",
+  "pricing_source": "https://ai.google.dev/pricing",
+  "deprecated": false,
+  "tolvyn_verified": true,
+  "last_synced": "2026-05-15T03:00:00Z"
+}

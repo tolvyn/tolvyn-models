@@ -1,0 +1,44 @@
+name: Sync pricing from TOLVYN
+
+on:
+  schedule:
+    - cron: '0 4 * * *'  # 04:00 UTC daily (after TOLVYN's nightly scrape at 03:00)
+  workflow_dispatch:       # allow manual trigger
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Fetch current pricing from TOLVYN operator API
+        env:
+          TOLVYN_OPERATOR_TOKEN: ${{ secrets.TOLVYN_OPERATOR_TOKEN }}
+        run: |
+          curl -sf \
+            -H "Authorization: Bearer $TOLVYN_OPERATOR_TOKEN" \
+            "https://api.tolvyn.io/v1/operator/models" \
+            > /tmp/tolvyn_models.json
+          echo "Fetched $(jq '.models | length' /tmp/tolvyn_models.json) models"
+
+      - name: Update model JSON files
+        run: |
+          python3 scripts/update_models.py /tmp/tolvyn_models.json
+
+      - name: Update index.json
+        run: |
+          python3 scripts/build_index.py
+
+      - name: Commit if changed
+        run: |
+          git config user.name "tolvyn-bot"
+          git config user.email "bot@tolvyn.io"
+          git add models/ index.json
+          if git diff --staged --quiet; then
+            echo "No pricing changes detected"
+          else
+            git commit -m "chore: sync pricing $(date -u +%Y-%m-%d)"
+            git push
+          fi

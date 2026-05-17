@@ -1,0 +1,20 @@
+{
+  "model_id": "o3-mini",
+  "provider": "openai",
+  "display_name": "OpenAI o3-mini",
+  "model_family": "o3",
+  "modality": "text",
+  "context_window": 200000,
+  "pricing": {
+    "input_per_mtok": 1.10,
+    "output_per_mtok": 4.40,
+    "cached_per_mtok": 0.275,
+    "currency": "USD",
+    "unit": "per_million_tokens"
+  },
+  "pricing_updated_at": "2026-05-15",
+  "pricing_source": "https://openai.com/api/pricing",
+  "deprecated": false,
+  "tolvyn_verified": true,
+  "last_synced": "2026-05-15T03:00:00Z"
+}

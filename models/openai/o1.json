@@ -1,0 +1,20 @@
+{
+  "model_id": "o1",
+  "provider": "openai",
+  "display_name": "OpenAI o1",
+  "model_family": "o1",
+  "modality": "text",
+  "context_window": 200000,
+  "pricing": {
+    "input_per_mtok": 15.00,
+    "output_per_mtok": 60.00,
+    "cached_per_mtok": 3.75,
+    "currency": "USD",
+    "unit": "per_million_tokens"
+  },
+  "pricing_updated_at": "2026-05-15",
+  "pricing_source": "https://openai.com/api/pricing",
+  "deprecated": false,
+  "tolvyn_verified": true,
+  "last_synced": "2026-05-15T03:00:00Z"
+}
