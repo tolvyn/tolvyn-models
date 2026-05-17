@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-17T07:02:11Z",
+  "generated_at": "2026-05-17T07:05:31Z",
   "model_count": 18,
   "providers": [
     "anthropic",
@@ -295,9 +295,9 @@
       "modality": "text",
       "context_window": 128000,
       "pricing": {
-        "input_per_mtok": 3.0,
-        "output_per_mtok": 12.0,
-        "cached_per_mtok": 1.5,
+        "input_per_mtok": 1.1,
+        "output_per_mtok": 4.4,
+        "cached_per_mtok": 0,
         "currency": "USD",
         "unit": "per_million_tokens"
       },
@@ -317,7 +317,7 @@
       "pricing": {
         "input_per_mtok": 15.0,
         "output_per_mtok": 60.0,
-        "cached_per_mtok": 3.75,
+        "cached_per_mtok": 7.5,
         "currency": "USD",
         "unit": "per_million_tokens"
       },

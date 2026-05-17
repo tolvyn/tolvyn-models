@@ -6,9 +6,9 @@
   "modality": "text",
   "context_window": 128000,
   "pricing": {
-    "input_per_mtok": 3.00,
-    "output_per_mtok": 12.00,
-    "cached_per_mtok": 1.50,
+    "input_per_mtok": 1.10,
+    "output_per_mtok": 4.40,
+    "cached_per_mtok": 0,
     "currency": "USD",
     "unit": "per_million_tokens"
   },
