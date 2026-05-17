@@ -8,7 +8,7 @@
   "pricing": {
     "input_per_mtok": 1.10,
     "output_per_mtok": 4.40,
-    "cached_per_mtok": 0.275,
+    "cached_per_mtok": 0.55,
     "currency": "USD",
     "unit": "per_million_tokens"
   },

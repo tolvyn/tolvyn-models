@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-15T03:00:00Z",
+  "generated_at": "2026-05-17T07:02:11Z",
   "model_count": 18,
   "providers": [
     "anthropic",
@@ -337,7 +337,7 @@
       "pricing": {
         "input_per_mtok": 1.1,
         "output_per_mtok": 4.4,
-        "cached_per_mtok": 0.275,
+        "cached_per_mtok": 0.55,
         "currency": "USD",
         "unit": "per_million_tokens"
       },
