@@ -1,5 +1,10 @@
 # TOLVYN Models
 
+[![Models](https://img.shields.io/badge/models-18-blue)](https://github.com/tolvyn/tolvyn-models)
+[![License](https://img.shields.io/badge/license-Apache%202.0-green)](LICENSE)
+[![Sync](https://img.shields.io/github/actions/workflow/status/tolvyn/tolvyn-models/sync.yml?label=daily%20sync)](https://github.com/tolvyn/tolvyn-models/actions/workflows/sync.yml)
+[![Maintained by TOLVYN](https://img.shields.io/badge/maintained%20by-TOLVYN-orange)](https://tolvyn.io)
+
 Open-source AI model pricing database. Apache 2.0.
 
 Maintained by [TOLVYN](https://tolvyn.io) — the financial control plane for AI infrastructure.

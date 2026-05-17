@@ -42,3 +42,18 @@ jobs:
             git commit -m "chore: sync pricing $(date -u +%Y-%m-%d)"
             git push
           fi
+
+  set-topics:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'workflow_dispatch'
+    steps:
+      - name: Set repository topics
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          curl -sf -X PUT \
+            -H "Authorization: Bearer $GH_TOKEN" \
+            -H "Accept: application/vnd.github+json" \
+            https://api.github.com/repos/tolvyn/tolvyn-models/topics \
+            -d '{"names":["llm","ai","pricing","openai","anthropic","gemini","finops","api-pricing","machine-learning","cost-optimization"]}'
+          echo "Topics set"
