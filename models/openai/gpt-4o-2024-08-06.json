@@ -1,14 +1,14 @@
 {
-  "model_id": "o1-mini",
+  "model_id": "gpt-4o-2024-08-06",
   "provider": "openai",
-  "display_name": "OpenAI o1 mini",
-  "model_family": "o1-mini",
+  "display_name": "GPT-4o (Aug 2024)",
+  "model_family": "gpt-4o",
   "modality": "text",
   "context_window": null,
   "pricing": {
-    "input_per_mtok": 1.1,
-    "output_per_mtok": 4.4,
-    "cached_per_mtok": 0.0,
+    "input_per_mtok": 2.5,
+    "output_per_mtok": 10.0,
+    "cached_per_mtok": 1.25,
     "currency": "USD",
     "unit": "per_million_tokens"
   },

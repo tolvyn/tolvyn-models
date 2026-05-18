@@ -1,12 +1,32 @@
 {
-  "generated_at": "2026-05-17T07:05:31Z",
-  "model_count": 18,
+  "generated_at": "2026-05-18T10:12:07Z",
+  "model_count": 22,
   "providers": [
     "anthropic",
     "google",
     "openai"
   ],
   "models": [
+    {
+      "model_id": "claude-3-5-sonnet-20241022",
+      "provider": "anthropic",
+      "display_name": "Claude 3.5 Sonnet",
+      "model_family": "claude-3-5-sonnet",
+      "modality": "text",
+      "context_window": null,
+      "pricing": {
+        "input_per_mtok": 3.0,
+        "output_per_mtok": 15.0,
+        "cached_per_mtok": 0.3,
+        "currency": "USD",
+        "unit": "per_million_tokens"
+      },
+      "pricing_updated_at": "2026-05-18",
+      "pricing_source": "",
+      "deprecated": false,
+      "tolvyn_verified": true,
+      "last_synced": "2026-05-18T10:12:07Z"
+    },
     {
       "model_id": "claude-3-5-sonnet",
       "provider": "anthropic",
@@ -26,6 +46,26 @@
       "deprecated": false,
       "tolvyn_verified": true,
       "last_synced": "2026-05-15T03:00:00Z"
+    },
+    {
+      "model_id": "claude-3-opus-20240229",
+      "provider": "anthropic",
+      "display_name": "Claude 3 Opus",
+      "model_family": "claude-3-opus",
+      "modality": "text",
+      "context_window": null,
+      "pricing": {
+        "input_per_mtok": 15.0,
+        "output_per_mtok": 75.0,
+        "cached_per_mtok": 1.5,
+        "currency": "USD",
+        "unit": "per_million_tokens"
+      },
+      "pricing_updated_at": "2026-05-18",
+      "pricing_source": "",
+      "deprecated": false,
+      "tolvyn_verified": true,
+      "last_synced": "2026-05-18T10:12:07Z"
     },
     {
       "model_id": "claude-3-opus",
@@ -48,10 +88,10 @@
       "last_synced": "2026-05-15T03:00:00Z"
     },
     {
-      "model_id": "claude-haiku-4-5",
+      "model_id": "claude-haiku-4-5-20251001",
       "provider": "anthropic",
       "display_name": "Claude Haiku 4.5",
-      "model_family": "claude-haiku",
+      "model_family": null,
       "modality": "text",
       "context_window": 200000,
       "pricing": {
@@ -61,11 +101,31 @@
         "currency": "USD",
         "unit": "per_million_tokens"
       },
-      "pricing_updated_at": "2026-05-15",
-      "pricing_source": "https://www.anthropic.com/pricing",
+      "pricing_updated_at": "2026-05-18",
+      "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-05-15T03:00:00Z"
+      "last_synced": "2026-05-18T10:12:07Z"
+    },
+    {
+      "model_id": "claude-haiku-4-5",
+      "provider": "anthropic",
+      "display_name": "Claude Haiku 4.5",
+      "model_family": null,
+      "modality": "text",
+      "context_window": 200000,
+      "pricing": {
+        "input_per_mtok": 0.8,
+        "output_per_mtok": 4.0,
+        "cached_per_mtok": 0.08,
+        "currency": "USD",
+        "unit": "per_million_tokens"
+      },
+      "pricing_updated_at": "2026-05-18",
+      "pricing_source": "",
+      "deprecated": false,
+      "tolvyn_verified": true,
+      "last_synced": "2026-05-18T10:12:07Z"
     },
     {
       "model_id": "claude-opus-4-6",
@@ -91,7 +151,7 @@
       "model_id": "claude-sonnet-4-6",
       "provider": "anthropic",
       "display_name": "Claude Sonnet 4.6",
-      "model_family": "claude-4",
+      "model_family": null,
       "modality": "text",
       "context_window": 200000,
       "pricing": {
@@ -101,11 +161,11 @@
         "currency": "USD",
         "unit": "per_million_tokens"
       },
-      "pricing_updated_at": "2026-05-15",
-      "pricing_source": "https://www.anthropic.com/pricing",
+      "pricing_updated_at": "2026-05-18",
+      "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-05-15T03:00:00Z"
+      "last_synced": "2026-05-18T10:12:07Z"
     },
     {
       "model_id": "gemini-1.5-flash",
@@ -131,21 +191,21 @@
       "model_id": "gemini-1.5-pro",
       "provider": "google",
       "display_name": "Gemini 1.5 Pro",
-      "model_family": "gemini-1.5",
+      "model_family": "gemini-1.5-pro",
       "modality": "text",
-      "context_window": 2097152,
+      "context_window": null,
       "pricing": {
         "input_per_mtok": 1.25,
         "output_per_mtok": 5.0,
-        "cached_per_mtok": 0.315,
+        "cached_per_mtok": 0.0,
         "currency": "USD",
         "unit": "per_million_tokens"
       },
-      "pricing_updated_at": "2026-05-15",
-      "pricing_source": "https://ai.google.dev/pricing",
+      "pricing_updated_at": "2026-05-18",
+      "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-05-15T03:00:00Z"
+      "last_synced": "2026-05-18T10:12:07Z"
     },
     {
       "model_id": "gemini-2.0-flash",
@@ -248,12 +308,32 @@
       "last_synced": "2026-05-15T03:00:00Z"
     },
     {
-      "model_id": "gpt-4o-mini",
+      "model_id": "gpt-4o-2024-08-06",
       "provider": "openai",
-      "display_name": "GPT-4o mini",
+      "display_name": "GPT-4o (Aug 2024)",
       "model_family": "gpt-4o",
       "modality": "text",
-      "context_window": 128000,
+      "context_window": null,
+      "pricing": {
+        "input_per_mtok": 2.5,
+        "output_per_mtok": 10.0,
+        "cached_per_mtok": 1.25,
+        "currency": "USD",
+        "unit": "per_million_tokens"
+      },
+      "pricing_updated_at": "2026-05-18",
+      "pricing_source": "",
+      "deprecated": false,
+      "tolvyn_verified": true,
+      "last_synced": "2026-05-18T10:12:07Z"
+    },
+    {
+      "model_id": "gpt-4o-mini",
+      "provider": "openai",
+      "display_name": "gpt-4o-mini",
+      "model_family": null,
+      "modality": "text",
+      "context_window": null,
       "pricing": {
         "input_per_mtok": 0.15,
         "output_per_mtok": 0.6,
@@ -261,17 +341,17 @@
         "currency": "USD",
         "unit": "per_million_tokens"
       },
-      "pricing_updated_at": "2026-05-15",
-      "pricing_source": "https://openai.com/api/pricing",
+      "pricing_updated_at": "2026-05-18",
+      "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-05-15T03:00:00Z"
+      "last_synced": "2026-05-18T10:12:07Z"
     },
     {
       "model_id": "gpt-4o",
       "provider": "openai",
       "display_name": "GPT-4o",
-      "model_family": "gpt-4o",
+      "model_family": null,
       "modality": "text",
       "context_window": 128000,
       "pricing": {
@@ -281,31 +361,31 @@
         "currency": "USD",
         "unit": "per_million_tokens"
       },
-      "pricing_updated_at": "2026-05-15",
-      "pricing_source": "https://openai.com/api/pricing",
+      "pricing_updated_at": "2026-05-18",
+      "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-05-15T03:00:00Z"
+      "last_synced": "2026-05-18T10:12:07Z"
     },
     {
       "model_id": "o1-mini",
       "provider": "openai",
-      "display_name": "OpenAI o1-mini",
-      "model_family": "o1",
+      "display_name": "OpenAI o1 mini",
+      "model_family": "o1-mini",
       "modality": "text",
-      "context_window": 128000,
+      "context_window": null,
       "pricing": {
         "input_per_mtok": 1.1,
         "output_per_mtok": 4.4,
-        "cached_per_mtok": 0,
+        "cached_per_mtok": 0.0,
         "currency": "USD",
         "unit": "per_million_tokens"
       },
-      "pricing_updated_at": "2026-05-15",
-      "pricing_source": "https://openai.com/api/pricing",
+      "pricing_updated_at": "2026-05-18",
+      "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-05-15T03:00:00Z"
+      "last_synced": "2026-05-18T10:12:07Z"
     },
     {
       "model_id": "o1",
@@ -313,7 +393,7 @@
       "display_name": "OpenAI o1",
       "model_family": "o1",
       "modality": "text",
-      "context_window": 200000,
+      "context_window": null,
       "pricing": {
         "input_per_mtok": 15.0,
         "output_per_mtok": 60.0,
@@ -321,19 +401,19 @@
         "currency": "USD",
         "unit": "per_million_tokens"
       },
-      "pricing_updated_at": "2026-05-15",
-      "pricing_source": "https://openai.com/api/pricing",
+      "pricing_updated_at": "2026-05-18",
+      "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-05-15T03:00:00Z"
+      "last_synced": "2026-05-18T10:12:07Z"
     },
     {
       "model_id": "o3-mini",
       "provider": "openai",
-      "display_name": "OpenAI o3-mini",
-      "model_family": "o3",
+      "display_name": "OpenAI o3 mini",
+      "model_family": "o3-mini",
       "modality": "text",
-      "context_window": 200000,
+      "context_window": null,
       "pricing": {
         "input_per_mtok": 1.1,
         "output_per_mtok": 4.4,
@@ -341,11 +421,11 @@
         "currency": "USD",
         "unit": "per_million_tokens"
       },
-      "pricing_updated_at": "2026-05-15",
-      "pricing_source": "https://openai.com/api/pricing",
+      "pricing_updated_at": "2026-05-18",
+      "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-05-15T03:00:00Z"
+      "last_synced": "2026-05-18T10:12:07Z"
     },
     {
       "model_id": "o3",
@@ -353,7 +433,7 @@
       "display_name": "OpenAI o3",
       "model_family": "o3",
       "modality": "text",
-      "context_window": 200000,
+      "context_window": null,
       "pricing": {
         "input_per_mtok": 10.0,
         "output_per_mtok": 40.0,
@@ -361,11 +441,11 @@
         "currency": "USD",
         "unit": "per_million_tokens"
       },
-      "pricing_updated_at": "2026-05-15",
-      "pricing_source": "https://openai.com/api/pricing",
+      "pricing_updated_at": "2026-05-18",
+      "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-05-15T03:00:00Z"
+      "last_synced": "2026-05-18T10:12:07Z"
     }
   ]
 }

@@ -1,14 +1,14 @@
 {
-  "model_id": "o1-mini",
-  "provider": "openai",
-  "display_name": "OpenAI o1 mini",
-  "model_family": "o1-mini",
+  "model_id": "claude-haiku-4-5-20251001",
+  "provider": "anthropic",
+  "display_name": "Claude Haiku 4.5",
+  "model_family": null,
   "modality": "text",
-  "context_window": null,
+  "context_window": 200000,
   "pricing": {
-    "input_per_mtok": 1.1,
-    "output_per_mtok": 4.4,
-    "cached_per_mtok": 0.0,
+    "input_per_mtok": 0.8,
+    "output_per_mtok": 4.0,
+    "cached_per_mtok": 0.08,
     "currency": "USD",
     "unit": "per_million_tokens"
   },
