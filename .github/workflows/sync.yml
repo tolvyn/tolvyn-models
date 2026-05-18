@@ -5,6 +5,9 @@ on:
     - cron: '0 4 * * *'  # 04:00 UTC daily (after TOLVYN's nightly scrape at 03:00)
   workflow_dispatch:       # allow manual trigger
 
+permissions:
+  contents: write  # needed for the sync job to push pricing updates back to main
+
 jobs:
   sync:
     runs-on: ubuntu-latest
@@ -103,17 +106,9 @@ jobs:
             echo "Models fetched: ${{ steps.fetch.outputs.model_count }}" >> "$GITHUB_STEP_SUMMARY"
           fi
 
-  set-topics:
-    runs-on: ubuntu-latest
-    if: github.event_name == 'workflow_dispatch'
-    steps:
-      - name: Set repository topics
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          curl -sf -X PUT \
-            -H "Authorization: Bearer $GH_TOKEN" \
-            -H "Accept: application/vnd.github+json" \
-            https://api.github.com/repos/tolvyn/tolvyn-models/topics \
-            -d '{"names":["llm","ai","pricing","openai","anthropic","gemini","finops","api-pricing","machine-learning","cost-optimization"]}'
-          echo "Topics set"
+# NOTE: The set-topics job was removed. Modifying repository topics requires
+# a PAT with the `repo` scope — `GITHUB_TOKEN` cannot do it. Topics were set
+# once via the initial PAT-authenticated run (commit 3133cf0); they persist
+# at the repo level and don't need re-application. If topics need updating,
+# either use `gh repo edit tolvyn/tolvyn-models --add-topic <topic>` locally
+# or run a one-off workflow with a PAT secret.
