@@ -7,7 +7,14 @@ def main():
     with open(sys.argv[1]) as f:
         data = json.load(f)
 
-    models = data.get('data', data.get('models', []))
+    # The TOLVYN operator API returns a bare JSON array. Defensively accept
+    # legacy {data: [...]} or {models: [...]} wrappers as well.
+    if isinstance(data, list):
+        models = data
+    elif isinstance(data, dict):
+        models = data.get('data', data.get('models', []))
+    else:
+        raise SystemExit(f"unexpected JSON shape: {type(data).__name__}")
     now = datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
     today = datetime.now(timezone.utc).strftime('%Y-%m-%d')
 

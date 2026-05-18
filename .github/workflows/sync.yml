@@ -50,8 +50,10 @@ jobs:
             exit 0
           fi
 
-          # Validate that the response is parseable JSON with a models array.
-          if ! jq -e 'type == "object" and (has("data") or has("models"))' /tmp/tolvyn_models.json > /dev/null 2>&1; then
+          # Validate that the response is parseable JSON containing model rows.
+          # The endpoint returns a bare JSON array; older formats wrapped in
+          # {data: [...]} or {models: [...]} are also accepted defensively.
+          if ! jq -e 'type == "array" or (type == "object" and (has("data") or has("models")))' /tmp/tolvyn_models.json > /dev/null 2>&1; then
             BODY_PREVIEW=$(head -c 500 /tmp/tolvyn_models.json)
             echo "::warning::TOLVYN API returned unexpected payload shape — skipping sync"
             echo "Response preview: $BODY_PREVIEW"
@@ -59,7 +61,7 @@ jobs:
             exit 0
           fi
 
-          MODEL_COUNT=$(jq '(.data // .models) | length' /tmp/tolvyn_models.json)
+          MODEL_COUNT=$(jq 'if type == "array" then length else (.data // .models) | length end' /tmp/tolvyn_models.json)
           echo "Fetched $MODEL_COUNT models (HTTP $HTTP_STATUS)"
           echo "skip=false" >> "$GITHUB_OUTPUT"
           echo "model_count=$MODEL_COUNT" >> "$GITHUB_OUTPUT"
