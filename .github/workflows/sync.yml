@@ -14,33 +14,91 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Fetch current pricing from TOLVYN operator API
+        id: fetch
         env:
           TOLVYN_OPERATOR_TOKEN: ${{ secrets.TOLVYN_OPERATOR_TOKEN }}
         run: |
-          curl -sf \
+          # Don't use `set -e` for this step — we want to handle failures gracefully.
+          set +e
+
+          if [ -z "$TOLVYN_OPERATOR_TOKEN" ]; then
+            echo "::warning::TOLVYN_OPERATOR_TOKEN secret is not set — skipping sync"
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          # Capture body and HTTP status separately. -s silences progress, NO -f
+          # so we still get the body on error responses.
+          HTTP_STATUS=$(curl -s -o /tmp/tolvyn_models.json \
+            -w "%{http_code}" \
             -H "Authorization: Bearer $TOLVYN_OPERATOR_TOKEN" \
-            "https://api.tolvyn.io/v1/operator/models" \
-            > /tmp/tolvyn_models.json
-          echo "Fetched $(jq '.models | length' /tmp/tolvyn_models.json) models"
+            --max-time 30 \
+            "https://api.tolvyn.io/v1/operator/models")
+          CURL_EXIT=$?
+
+          if [ "$CURL_EXIT" -ne 0 ]; then
+            echo "::warning::curl failed with exit code $CURL_EXIT (network or DNS issue) — skipping sync"
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          if [ "$HTTP_STATUS" -lt 200 ] || [ "$HTTP_STATUS" -ge 300 ]; then
+            BODY_PREVIEW=$(head -c 500 /tmp/tolvyn_models.json 2>/dev/null || echo "(empty)")
+            echo "::warning::TOLVYN API returned HTTP $HTTP_STATUS — skipping sync"
+            echo "Response preview: $BODY_PREVIEW"
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          # Validate that the response is parseable JSON with a models array.
+          if ! jq -e 'type == "object" and (has("data") or has("models"))' /tmp/tolvyn_models.json > /dev/null 2>&1; then
+            BODY_PREVIEW=$(head -c 500 /tmp/tolvyn_models.json)
+            echo "::warning::TOLVYN API returned unexpected payload shape — skipping sync"
+            echo "Response preview: $BODY_PREVIEW"
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          MODEL_COUNT=$(jq '(.data // .models) | length' /tmp/tolvyn_models.json)
+          echo "Fetched $MODEL_COUNT models (HTTP $HTTP_STATUS)"
+          echo "skip=false" >> "$GITHUB_OUTPUT"
+          echo "model_count=$MODEL_COUNT" >> "$GITHUB_OUTPUT"
 
       - name: Update model JSON files
+        if: steps.fetch.outputs.skip != 'true'
         run: |
           python3 scripts/update_models.py /tmp/tolvyn_models.json
 
       - name: Update index.json
+        if: steps.fetch.outputs.skip != 'true'
         run: |
           python3 scripts/build_index.py
 
       - name: Commit if changed
+        if: steps.fetch.outputs.skip != 'true'
         run: |
           git config user.name "tolvyn-bot"
           git config user.email "bot@tolvyn.io"
           git add models/ index.json
           if git diff --staged --quiet; then
-            echo "No pricing changes detected"
+            echo "No pricing changes detected — nothing to commit"
           else
             git commit -m "chore: sync pricing $(date -u +%Y-%m-%d)"
             git push
+            echo "::notice::Pricing changes committed for $(date -u +%Y-%m-%d)"
+          fi
+
+      - name: Summary
+        if: always()
+        run: |
+          if [ "${{ steps.fetch.outputs.skip }}" = "true" ]; then
+            echo "### ⚠️ Sync skipped" >> "$GITHUB_STEP_SUMMARY"
+            echo "" >> "$GITHUB_STEP_SUMMARY"
+            echo "Check the **Fetch current pricing** step warnings for the reason (auth, network, or payload shape)." >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "### ✓ Sync completed" >> "$GITHUB_STEP_SUMMARY"
+            echo "" >> "$GITHUB_STEP_SUMMARY"
+            echo "Models fetched: ${{ steps.fetch.outputs.model_count }}" >> "$GITHUB_STEP_SUMMARY"
           fi
 
   set-topics:
