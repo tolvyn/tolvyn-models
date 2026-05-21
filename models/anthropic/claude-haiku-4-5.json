@@ -6,15 +6,15 @@
   "modality": "text",
   "context_window": 200000,
   "pricing": {
-    "input_per_mtok": 0.8,
-    "output_per_mtok": 4.0,
-    "cached_per_mtok": 0.08,
+    "input_per_mtok": 1.0,
+    "output_per_mtok": 5.0,
+    "cached_per_mtok": 0.1,
     "currency": "USD",
     "unit": "per_million_tokens"
   },
-  "pricing_updated_at": "2026-05-20",
+  "pricing_updated_at": "2026-05-21",
   "pricing_source": "",
   "deprecated": false,
   "tolvyn_verified": true,
-  "last_synced": "2026-05-20T07:36:03Z"
+  "last_synced": "2026-05-21T07:42:58Z"
 }
