@@ -1,14 +1,14 @@
 {
-  "model_id": "gemini-2.0-flash",
-  "provider": "google",
-  "display_name": "Gemini 2.0 Flash",
+  "model_id": "gpt-5.4",
+  "provider": "openai",
+  "display_name": "GPT 5.4",
   "model_family": null,
   "modality": "text",
   "context_window": null,
   "pricing": {
-    "input_per_mtok": 0.1,
-    "output_per_mtok": 0.4,
-    "cached_per_mtok": 0.025,
+    "input_per_mtok": 2.5,
+    "output_per_mtok": 15.0,
+    "cached_per_mtok": 0.25,
     "currency": "USD",
     "unit": "per_million_tokens"
   },

@@ -1,7 +1,7 @@
 {
-  "model_id": "gemini-2.0-flash",
-  "provider": "google",
-  "display_name": "Gemini 2.0 Flash",
+  "model_id": "gpt-4.1-nano",
+  "provider": "openai",
+  "display_name": "GPT 4.1 Nano",
   "model_family": null,
   "modality": "text",
   "context_window": null,

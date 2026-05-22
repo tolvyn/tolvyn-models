@@ -1,14 +1,14 @@
 {
-  "model_id": "gemini-2.0-flash",
+  "model_id": "gemini-3-pro-preview",
   "provider": "google",
-  "display_name": "Gemini 2.0 Flash",
+  "display_name": "Gemini 3 Pro Preview",
   "model_family": null,
   "modality": "text",
   "context_window": null,
   "pricing": {
-    "input_per_mtok": 0.1,
-    "output_per_mtok": 0.4,
-    "cached_per_mtok": 0.025,
+    "input_per_mtok": 2.0,
+    "output_per_mtok": 12.0,
+    "cached_per_mtok": 0.2,
     "currency": "USD",
     "unit": "per_million_tokens"
   },

@@ -1,14 +1,14 @@
 {
-  "model_id": "gemini-2.0-flash",
+  "model_id": "gemini-3.5-flash",
   "provider": "google",
-  "display_name": "Gemini 2.0 Flash",
+  "display_name": "Gemini 3.5 Flash",
   "model_family": null,
   "modality": "text",
   "context_window": null,
   "pricing": {
-    "input_per_mtok": 0.1,
-    "output_per_mtok": 0.4,
-    "cached_per_mtok": 0.025,
+    "input_per_mtok": 1.5,
+    "output_per_mtok": 9.0,
+    "cached_per_mtok": 0.15,
     "currency": "USD",
     "unit": "per_million_tokens"
   },

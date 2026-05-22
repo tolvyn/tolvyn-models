@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-21T07:42:58Z",
-  "model_count": 22,
+  "generated_at": "2026-05-22T07:36:45Z",
+  "model_count": 57,
   "providers": [
     "anthropic",
     "google",
@@ -21,11 +21,11 @@
         "currency": "USD",
         "unit": "per_million_tokens"
       },
-      "pricing_updated_at": "2026-05-21",
+      "pricing_updated_at": "2026-05-22",
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-05-21T07:42:58Z"
+      "last_synced": "2026-05-22T07:36:45Z"
     },
     {
       "model_id": "claude-3-5-sonnet",
@@ -61,11 +61,11 @@
         "currency": "USD",
         "unit": "per_million_tokens"
       },
-      "pricing_updated_at": "2026-05-21",
+      "pricing_updated_at": "2026-05-22",
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-05-21T07:42:58Z"
+      "last_synced": "2026-05-22T07:36:45Z"
     },
     {
       "model_id": "claude-3-opus",
@@ -101,11 +101,11 @@
         "currency": "USD",
         "unit": "per_million_tokens"
       },
-      "pricing_updated_at": "2026-05-21",
+      "pricing_updated_at": "2026-05-22",
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-05-21T07:42:58Z"
+      "last_synced": "2026-05-22T07:36:45Z"
     },
     {
       "model_id": "claude-haiku-4-5",
@@ -121,19 +121,39 @@
         "currency": "USD",
         "unit": "per_million_tokens"
       },
-      "pricing_updated_at": "2026-05-21",
+      "pricing_updated_at": "2026-05-22",
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-05-21T07:42:58Z"
+      "last_synced": "2026-05-22T07:36:45Z"
     },
     {
-      "model_id": "claude-opus-4-6",
+      "model_id": "claude-opus-4-1",
       "provider": "anthropic",
-      "display_name": "Claude Opus 4.6",
-      "model_family": "claude-4",
+      "display_name": "Claude Opus 4 1",
+      "model_family": null,
       "modality": "text",
-      "context_window": 200000,
+      "context_window": null,
+      "pricing": {
+        "input_per_mtok": 15.0,
+        "output_per_mtok": 75.0,
+        "cached_per_mtok": 1.5,
+        "currency": "USD",
+        "unit": "per_million_tokens"
+      },
+      "pricing_updated_at": "2026-05-22",
+      "pricing_source": "",
+      "deprecated": false,
+      "tolvyn_verified": true,
+      "last_synced": "2026-05-22T07:36:45Z"
+    },
+    {
+      "model_id": "claude-opus-4-5",
+      "provider": "anthropic",
+      "display_name": "Claude Opus 4 5",
+      "model_family": null,
+      "modality": "text",
+      "context_window": null,
       "pricing": {
         "input_per_mtok": 5.0,
         "output_per_mtok": 25.0,
@@ -141,11 +161,71 @@
         "currency": "USD",
         "unit": "per_million_tokens"
       },
-      "pricing_updated_at": "2026-05-15",
-      "pricing_source": "https://www.anthropic.com/pricing",
+      "pricing_updated_at": "2026-05-22",
+      "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-05-15T03:00:00Z"
+      "last_synced": "2026-05-22T07:36:45Z"
+    },
+    {
+      "model_id": "claude-opus-4-6",
+      "provider": "anthropic",
+      "display_name": "Claude Opus 4 6",
+      "model_family": null,
+      "modality": "text",
+      "context_window": null,
+      "pricing": {
+        "input_per_mtok": 5.0,
+        "output_per_mtok": 25.0,
+        "cached_per_mtok": 0.5,
+        "currency": "USD",
+        "unit": "per_million_tokens"
+      },
+      "pricing_updated_at": "2026-05-22",
+      "pricing_source": "",
+      "deprecated": false,
+      "tolvyn_verified": true,
+      "last_synced": "2026-05-22T07:36:45Z"
+    },
+    {
+      "model_id": "claude-opus-4-7",
+      "provider": "anthropic",
+      "display_name": "Claude Opus 4 7",
+      "model_family": null,
+      "modality": "text",
+      "context_window": null,
+      "pricing": {
+        "input_per_mtok": 5.0,
+        "output_per_mtok": 25.0,
+        "cached_per_mtok": 0.5,
+        "currency": "USD",
+        "unit": "per_million_tokens"
+      },
+      "pricing_updated_at": "2026-05-22",
+      "pricing_source": "",
+      "deprecated": false,
+      "tolvyn_verified": true,
+      "last_synced": "2026-05-22T07:36:45Z"
+    },
+    {
+      "model_id": "claude-sonnet-4-5",
+      "provider": "anthropic",
+      "display_name": "Claude Sonnet 4 5",
+      "model_family": null,
+      "modality": "text",
+      "context_window": null,
+      "pricing": {
+        "input_per_mtok": 3.0,
+        "output_per_mtok": 15.0,
+        "cached_per_mtok": 0.3,
+        "currency": "USD",
+        "unit": "per_million_tokens"
+      },
+      "pricing_updated_at": "2026-05-22",
+      "pricing_source": "",
+      "deprecated": false,
+      "tolvyn_verified": true,
+      "last_synced": "2026-05-22T07:36:45Z"
     },
     {
       "model_id": "claude-sonnet-4-6",
@@ -161,11 +241,11 @@
         "currency": "USD",
         "unit": "per_million_tokens"
       },
-      "pricing_updated_at": "2026-05-21",
+      "pricing_updated_at": "2026-05-22",
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-05-21T07:42:58Z"
+      "last_synced": "2026-05-22T07:36:45Z"
     },
     {
       "model_id": "gemini-1.5-flash",
@@ -201,39 +281,19 @@
         "currency": "USD",
         "unit": "per_million_tokens"
       },
-      "pricing_updated_at": "2026-05-21",
+      "pricing_updated_at": "2026-05-22",
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-05-21T07:42:58Z"
+      "last_synced": "2026-05-22T07:36:45Z"
     },
     {
-      "model_id": "gemini-2.0-flash",
+      "model_id": "gemini-2.0-flash-001",
       "provider": "google",
-      "display_name": "Gemini 2.0 Flash",
-      "model_family": "gemini-2.0",
+      "display_name": "Gemini 2.0 Flash 001",
+      "model_family": null,
       "modality": "text",
-      "context_window": 1048576,
-      "pricing": {
-        "input_per_mtok": 0.1,
-        "output_per_mtok": 0.4,
-        "cached_per_mtok": 0.025,
-        "currency": "USD",
-        "unit": "per_million_tokens"
-      },
-      "pricing_updated_at": "2026-05-15",
-      "pricing_source": "https://ai.google.dev/pricing",
-      "deprecated": false,
-      "tolvyn_verified": true,
-      "last_synced": "2026-05-15T03:00:00Z"
-    },
-    {
-      "model_id": "gemini-2.5-flash",
-      "provider": "google",
-      "display_name": "Gemini 2.5 Flash",
-      "model_family": "gemini-2.5",
-      "modality": "text",
-      "context_window": 1048576,
+      "context_window": null,
       "pricing": {
         "input_per_mtok": 0.15,
         "output_per_mtok": 0.6,
@@ -241,31 +301,331 @@
         "currency": "USD",
         "unit": "per_million_tokens"
       },
-      "pricing_updated_at": "2026-05-15",
-      "pricing_source": "https://ai.google.dev/pricing",
+      "pricing_updated_at": "2026-05-22",
+      "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-05-15T03:00:00Z"
+      "last_synced": "2026-05-22T07:36:45Z"
+    },
+    {
+      "model_id": "gemini-2.0-flash-lite-001",
+      "provider": "google",
+      "display_name": "Gemini 2.0 Flash Lite 001",
+      "model_family": null,
+      "modality": "text",
+      "context_window": null,
+      "pricing": {
+        "input_per_mtok": 0.075,
+        "output_per_mtok": 0.3,
+        "cached_per_mtok": 0.01875,
+        "currency": "USD",
+        "unit": "per_million_tokens"
+      },
+      "pricing_updated_at": "2026-05-22",
+      "pricing_source": "",
+      "deprecated": false,
+      "tolvyn_verified": true,
+      "last_synced": "2026-05-22T07:36:45Z"
+    },
+    {
+      "model_id": "gemini-2.0-flash-lite",
+      "provider": "google",
+      "display_name": "Gemini 2.0 Flash Lite",
+      "model_family": null,
+      "modality": "text",
+      "context_window": null,
+      "pricing": {
+        "input_per_mtok": 0.075,
+        "output_per_mtok": 0.3,
+        "cached_per_mtok": 0.01875,
+        "currency": "USD",
+        "unit": "per_million_tokens"
+      },
+      "pricing_updated_at": "2026-05-22",
+      "pricing_source": "",
+      "deprecated": false,
+      "tolvyn_verified": true,
+      "last_synced": "2026-05-22T07:36:45Z"
+    },
+    {
+      "model_id": "gemini-2.0-flash",
+      "provider": "google",
+      "display_name": "Gemini 2.0 Flash",
+      "model_family": null,
+      "modality": "text",
+      "context_window": null,
+      "pricing": {
+        "input_per_mtok": 0.1,
+        "output_per_mtok": 0.4,
+        "cached_per_mtok": 0.025,
+        "currency": "USD",
+        "unit": "per_million_tokens"
+      },
+      "pricing_updated_at": "2026-05-22",
+      "pricing_source": "",
+      "deprecated": false,
+      "tolvyn_verified": true,
+      "last_synced": "2026-05-22T07:36:45Z"
+    },
+    {
+      "model_id": "gemini-2.5-flash-lite-preview-06-17",
+      "provider": "google",
+      "display_name": "Gemini 2.5 Flash Lite Preview 06 17",
+      "model_family": null,
+      "modality": "text",
+      "context_window": null,
+      "pricing": {
+        "input_per_mtok": 0.1,
+        "output_per_mtok": 0.4,
+        "cached_per_mtok": 0.025,
+        "currency": "USD",
+        "unit": "per_million_tokens"
+      },
+      "pricing_updated_at": "2026-05-22",
+      "pricing_source": "",
+      "deprecated": false,
+      "tolvyn_verified": true,
+      "last_synced": "2026-05-22T07:36:45Z"
+    },
+    {
+      "model_id": "gemini-2.5-flash-lite-preview-09-2025",
+      "provider": "google",
+      "display_name": "Gemini 2.5 Flash Lite Preview 09 2025",
+      "model_family": null,
+      "modality": "text",
+      "context_window": null,
+      "pricing": {
+        "input_per_mtok": 0.1,
+        "output_per_mtok": 0.4,
+        "cached_per_mtok": 0.01,
+        "currency": "USD",
+        "unit": "per_million_tokens"
+      },
+      "pricing_updated_at": "2026-05-22",
+      "pricing_source": "",
+      "deprecated": false,
+      "tolvyn_verified": true,
+      "last_synced": "2026-05-22T07:36:45Z"
+    },
+    {
+      "model_id": "gemini-2.5-flash-lite",
+      "provider": "google",
+      "display_name": "Gemini 2.5 Flash Lite",
+      "model_family": null,
+      "modality": "text",
+      "context_window": null,
+      "pricing": {
+        "input_per_mtok": 0.1,
+        "output_per_mtok": 0.4,
+        "cached_per_mtok": 0.01,
+        "currency": "USD",
+        "unit": "per_million_tokens"
+      },
+      "pricing_updated_at": "2026-05-22",
+      "pricing_source": "",
+      "deprecated": false,
+      "tolvyn_verified": true,
+      "last_synced": "2026-05-22T07:36:45Z"
+    },
+    {
+      "model_id": "gemini-2.5-flash-preview-09-2025",
+      "provider": "google",
+      "display_name": "Gemini 2.5 Flash Preview 09 2025",
+      "model_family": null,
+      "modality": "text",
+      "context_window": null,
+      "pricing": {
+        "input_per_mtok": 0.3,
+        "output_per_mtok": 2.5,
+        "cached_per_mtok": 0.075,
+        "currency": "USD",
+        "unit": "per_million_tokens"
+      },
+      "pricing_updated_at": "2026-05-22",
+      "pricing_source": "",
+      "deprecated": false,
+      "tolvyn_verified": true,
+      "last_synced": "2026-05-22T07:36:45Z"
+    },
+    {
+      "model_id": "gemini-2.5-flash",
+      "provider": "google",
+      "display_name": "Gemini 2.5 Flash",
+      "model_family": null,
+      "modality": "text",
+      "context_window": null,
+      "pricing": {
+        "input_per_mtok": 0.3,
+        "output_per_mtok": 2.5,
+        "cached_per_mtok": 0.03,
+        "currency": "USD",
+        "unit": "per_million_tokens"
+      },
+      "pricing_updated_at": "2026-05-22",
+      "pricing_source": "",
+      "deprecated": false,
+      "tolvyn_verified": true,
+      "last_synced": "2026-05-22T07:36:45Z"
     },
     {
       "model_id": "gemini-2.5-pro",
       "provider": "google",
       "display_name": "Gemini 2.5 Pro",
-      "model_family": "gemini-2.5",
+      "model_family": null,
       "modality": "text",
-      "context_window": 1048576,
+      "context_window": null,
       "pricing": {
         "input_per_mtok": 1.25,
         "output_per_mtok": 10.0,
-        "cached_per_mtok": 0.315,
+        "cached_per_mtok": 0.125,
         "currency": "USD",
         "unit": "per_million_tokens"
       },
-      "pricing_updated_at": "2026-05-15",
-      "pricing_source": "https://ai.google.dev/pricing",
+      "pricing_updated_at": "2026-05-22",
+      "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-05-15T03:00:00Z"
+      "last_synced": "2026-05-22T07:36:45Z"
+    },
+    {
+      "model_id": "gemini-3-flash-preview",
+      "provider": "google",
+      "display_name": "Gemini 3 Flash Preview",
+      "model_family": null,
+      "modality": "text",
+      "context_window": null,
+      "pricing": {
+        "input_per_mtok": 0.5,
+        "output_per_mtok": 3.0,
+        "cached_per_mtok": 0.05,
+        "currency": "USD",
+        "unit": "per_million_tokens"
+      },
+      "pricing_updated_at": "2026-05-22",
+      "pricing_source": "",
+      "deprecated": false,
+      "tolvyn_verified": true,
+      "last_synced": "2026-05-22T07:36:45Z"
+    },
+    {
+      "model_id": "gemini-3-pro-preview",
+      "provider": "google",
+      "display_name": "Gemini 3 Pro Preview",
+      "model_family": null,
+      "modality": "text",
+      "context_window": null,
+      "pricing": {
+        "input_per_mtok": 2.0,
+        "output_per_mtok": 12.0,
+        "cached_per_mtok": 0.2,
+        "currency": "USD",
+        "unit": "per_million_tokens"
+      },
+      "pricing_updated_at": "2026-05-22",
+      "pricing_source": "",
+      "deprecated": false,
+      "tolvyn_verified": true,
+      "last_synced": "2026-05-22T07:36:45Z"
+    },
+    {
+      "model_id": "gemini-3.1-flash-lite-preview",
+      "provider": "google",
+      "display_name": "Gemini 3.1 Flash Lite Preview",
+      "model_family": null,
+      "modality": "text",
+      "context_window": null,
+      "pricing": {
+        "input_per_mtok": 0.25,
+        "output_per_mtok": 1.5,
+        "cached_per_mtok": 0.025,
+        "currency": "USD",
+        "unit": "per_million_tokens"
+      },
+      "pricing_updated_at": "2026-05-22",
+      "pricing_source": "",
+      "deprecated": false,
+      "tolvyn_verified": true,
+      "last_synced": "2026-05-22T07:36:45Z"
+    },
+    {
+      "model_id": "gemini-3.1-flash-live-preview",
+      "provider": "google",
+      "display_name": "Gemini 3.1 Flash live Preview",
+      "model_family": null,
+      "modality": "text",
+      "context_window": null,
+      "pricing": {
+        "input_per_mtok": 0.75,
+        "output_per_mtok": 4.5,
+        "cached_per_mtok": 0.0,
+        "currency": "USD",
+        "unit": "per_million_tokens"
+      },
+      "pricing_updated_at": "2026-05-22",
+      "pricing_source": "",
+      "deprecated": false,
+      "tolvyn_verified": true,
+      "last_synced": "2026-05-22T07:36:45Z"
+    },
+    {
+      "model_id": "gemini-3.1-pro-preview-customtools",
+      "provider": "google",
+      "display_name": "Gemini 3.1 Pro Preview customtools",
+      "model_family": null,
+      "modality": "text",
+      "context_window": null,
+      "pricing": {
+        "input_per_mtok": 2.0,
+        "output_per_mtok": 12.0,
+        "cached_per_mtok": 0.2,
+        "currency": "USD",
+        "unit": "per_million_tokens"
+      },
+      "pricing_updated_at": "2026-05-22",
+      "pricing_source": "",
+      "deprecated": false,
+      "tolvyn_verified": true,
+      "last_synced": "2026-05-22T07:36:45Z"
+    },
+    {
+      "model_id": "gemini-3.1-pro-preview",
+      "provider": "google",
+      "display_name": "Gemini 3.1 Pro Preview",
+      "model_family": null,
+      "modality": "text",
+      "context_window": null,
+      "pricing": {
+        "input_per_mtok": 2.0,
+        "output_per_mtok": 12.0,
+        "cached_per_mtok": 0.2,
+        "currency": "USD",
+        "unit": "per_million_tokens"
+      },
+      "pricing_updated_at": "2026-05-22",
+      "pricing_source": "",
+      "deprecated": false,
+      "tolvyn_verified": true,
+      "last_synced": "2026-05-22T07:36:45Z"
+    },
+    {
+      "model_id": "gemini-3.5-flash",
+      "provider": "google",
+      "display_name": "Gemini 3.5 Flash",
+      "model_family": null,
+      "modality": "text",
+      "context_window": null,
+      "pricing": {
+        "input_per_mtok": 1.5,
+        "output_per_mtok": 9.0,
+        "cached_per_mtok": 0.15,
+        "currency": "USD",
+        "unit": "per_million_tokens"
+      },
+      "pricing_updated_at": "2026-05-22",
+      "pricing_source": "",
+      "deprecated": false,
+      "tolvyn_verified": true,
+      "last_synced": "2026-05-22T07:36:45Z"
     },
     {
       "model_id": "gpt-3.5-turbo",
@@ -308,6 +668,66 @@
       "last_synced": "2026-05-15T03:00:00Z"
     },
     {
+      "model_id": "gpt-4.1-mini",
+      "provider": "openai",
+      "display_name": "GPT 4.1 Mini",
+      "model_family": null,
+      "modality": "text",
+      "context_window": null,
+      "pricing": {
+        "input_per_mtok": 0.4,
+        "output_per_mtok": 1.6,
+        "cached_per_mtok": 0.1,
+        "currency": "USD",
+        "unit": "per_million_tokens"
+      },
+      "pricing_updated_at": "2026-05-22",
+      "pricing_source": "",
+      "deprecated": false,
+      "tolvyn_verified": true,
+      "last_synced": "2026-05-22T07:36:45Z"
+    },
+    {
+      "model_id": "gpt-4.1-nano",
+      "provider": "openai",
+      "display_name": "GPT 4.1 Nano",
+      "model_family": null,
+      "modality": "text",
+      "context_window": null,
+      "pricing": {
+        "input_per_mtok": 0.1,
+        "output_per_mtok": 0.4,
+        "cached_per_mtok": 0.025,
+        "currency": "USD",
+        "unit": "per_million_tokens"
+      },
+      "pricing_updated_at": "2026-05-22",
+      "pricing_source": "",
+      "deprecated": false,
+      "tolvyn_verified": true,
+      "last_synced": "2026-05-22T07:36:45Z"
+    },
+    {
+      "model_id": "gpt-4.1",
+      "provider": "openai",
+      "display_name": "GPT 4.1",
+      "model_family": null,
+      "modality": "text",
+      "context_window": null,
+      "pricing": {
+        "input_per_mtok": 2.0,
+        "output_per_mtok": 8.0,
+        "cached_per_mtok": 0.5,
+        "currency": "USD",
+        "unit": "per_million_tokens"
+      },
+      "pricing_updated_at": "2026-05-22",
+      "pricing_source": "",
+      "deprecated": false,
+      "tolvyn_verified": true,
+      "last_synced": "2026-05-22T07:36:45Z"
+    },
+    {
       "model_id": "gpt-4o-2024-08-06",
       "provider": "openai",
       "display_name": "GPT-4o (Aug 2024)",
@@ -321,11 +741,31 @@
         "currency": "USD",
         "unit": "per_million_tokens"
       },
-      "pricing_updated_at": "2026-05-21",
+      "pricing_updated_at": "2026-05-22",
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-05-21T07:42:58Z"
+      "last_synced": "2026-05-22T07:36:45Z"
+    },
+    {
+      "model_id": "gpt-4o-mini-search-preview",
+      "provider": "openai",
+      "display_name": "GPT 4o Mini Search Preview",
+      "model_family": null,
+      "modality": "text",
+      "context_window": null,
+      "pricing": {
+        "input_per_mtok": 0.15,
+        "output_per_mtok": 0.6,
+        "cached_per_mtok": 0.075,
+        "currency": "USD",
+        "unit": "per_million_tokens"
+      },
+      "pricing_updated_at": "2026-05-22",
+      "pricing_source": "",
+      "deprecated": false,
+      "tolvyn_verified": true,
+      "last_synced": "2026-05-22T07:36:45Z"
     },
     {
       "model_id": "gpt-4o-mini",
@@ -341,11 +781,31 @@
         "currency": "USD",
         "unit": "per_million_tokens"
       },
-      "pricing_updated_at": "2026-05-21",
+      "pricing_updated_at": "2026-05-22",
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-05-21T07:42:58Z"
+      "last_synced": "2026-05-22T07:36:45Z"
+    },
+    {
+      "model_id": "gpt-4o-search-preview",
+      "provider": "openai",
+      "display_name": "GPT 4o Search Preview",
+      "model_family": null,
+      "modality": "text",
+      "context_window": null,
+      "pricing": {
+        "input_per_mtok": 2.5,
+        "output_per_mtok": 10.0,
+        "cached_per_mtok": 1.25,
+        "currency": "USD",
+        "unit": "per_million_tokens"
+      },
+      "pricing_updated_at": "2026-05-22",
+      "pricing_source": "",
+      "deprecated": false,
+      "tolvyn_verified": true,
+      "last_synced": "2026-05-22T07:36:45Z"
     },
     {
       "model_id": "gpt-4o",
@@ -361,11 +821,231 @@
         "currency": "USD",
         "unit": "per_million_tokens"
       },
-      "pricing_updated_at": "2026-05-21",
+      "pricing_updated_at": "2026-05-22",
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-05-21T07:42:58Z"
+      "last_synced": "2026-05-22T07:36:45Z"
+    },
+    {
+      "model_id": "gpt-5-chat",
+      "provider": "openai",
+      "display_name": "GPT 5 Chat",
+      "model_family": null,
+      "modality": "text",
+      "context_window": null,
+      "pricing": {
+        "input_per_mtok": 1.25,
+        "output_per_mtok": 10.0,
+        "cached_per_mtok": 0.125,
+        "currency": "USD",
+        "unit": "per_million_tokens"
+      },
+      "pricing_updated_at": "2026-05-22",
+      "pricing_source": "",
+      "deprecated": false,
+      "tolvyn_verified": true,
+      "last_synced": "2026-05-22T07:36:45Z"
+    },
+    {
+      "model_id": "gpt-5-mini",
+      "provider": "openai",
+      "display_name": "GPT 5 Mini",
+      "model_family": null,
+      "modality": "text",
+      "context_window": null,
+      "pricing": {
+        "input_per_mtok": 0.25,
+        "output_per_mtok": 2.0,
+        "cached_per_mtok": 0.025,
+        "currency": "USD",
+        "unit": "per_million_tokens"
+      },
+      "pricing_updated_at": "2026-05-22",
+      "pricing_source": "",
+      "deprecated": false,
+      "tolvyn_verified": true,
+      "last_synced": "2026-05-22T07:36:45Z"
+    },
+    {
+      "model_id": "gpt-5-nano",
+      "provider": "openai",
+      "display_name": "GPT 5 Nano",
+      "model_family": null,
+      "modality": "text",
+      "context_window": null,
+      "pricing": {
+        "input_per_mtok": 0.05,
+        "output_per_mtok": 0.4,
+        "cached_per_mtok": 0.005,
+        "currency": "USD",
+        "unit": "per_million_tokens"
+      },
+      "pricing_updated_at": "2026-05-22",
+      "pricing_source": "",
+      "deprecated": false,
+      "tolvyn_verified": true,
+      "last_synced": "2026-05-22T07:36:45Z"
+    },
+    {
+      "model_id": "gpt-5-search-api",
+      "provider": "openai",
+      "display_name": "GPT 5 Search api",
+      "model_family": null,
+      "modality": "text",
+      "context_window": null,
+      "pricing": {
+        "input_per_mtok": 1.25,
+        "output_per_mtok": 10.0,
+        "cached_per_mtok": 0.125,
+        "currency": "USD",
+        "unit": "per_million_tokens"
+      },
+      "pricing_updated_at": "2026-05-22",
+      "pricing_source": "",
+      "deprecated": false,
+      "tolvyn_verified": true,
+      "last_synced": "2026-05-22T07:36:45Z"
+    },
+    {
+      "model_id": "gpt-5.1",
+      "provider": "openai",
+      "display_name": "GPT 5.1",
+      "model_family": null,
+      "modality": "text",
+      "context_window": null,
+      "pricing": {
+        "input_per_mtok": 1.25,
+        "output_per_mtok": 10.0,
+        "cached_per_mtok": 0.125,
+        "currency": "USD",
+        "unit": "per_million_tokens"
+      },
+      "pricing_updated_at": "2026-05-22",
+      "pricing_source": "",
+      "deprecated": false,
+      "tolvyn_verified": true,
+      "last_synced": "2026-05-22T07:36:45Z"
+    },
+    {
+      "model_id": "gpt-5.2",
+      "provider": "openai",
+      "display_name": "GPT 5.2",
+      "model_family": null,
+      "modality": "text",
+      "context_window": null,
+      "pricing": {
+        "input_per_mtok": 1.75,
+        "output_per_mtok": 14.0,
+        "cached_per_mtok": 0.175,
+        "currency": "USD",
+        "unit": "per_million_tokens"
+      },
+      "pricing_updated_at": "2026-05-22",
+      "pricing_source": "",
+      "deprecated": false,
+      "tolvyn_verified": true,
+      "last_synced": "2026-05-22T07:36:45Z"
+    },
+    {
+      "model_id": "gpt-5.4-mini",
+      "provider": "openai",
+      "display_name": "GPT 5.4 Mini",
+      "model_family": null,
+      "modality": "text",
+      "context_window": null,
+      "pricing": {
+        "input_per_mtok": 0.75,
+        "output_per_mtok": 4.5,
+        "cached_per_mtok": 0.075,
+        "currency": "USD",
+        "unit": "per_million_tokens"
+      },
+      "pricing_updated_at": "2026-05-22",
+      "pricing_source": "",
+      "deprecated": false,
+      "tolvyn_verified": true,
+      "last_synced": "2026-05-22T07:36:45Z"
+    },
+    {
+      "model_id": "gpt-5.4-nano",
+      "provider": "openai",
+      "display_name": "GPT 5.4 Nano",
+      "model_family": null,
+      "modality": "text",
+      "context_window": null,
+      "pricing": {
+        "input_per_mtok": 0.2,
+        "output_per_mtok": 1.25,
+        "cached_per_mtok": 0.02,
+        "currency": "USD",
+        "unit": "per_million_tokens"
+      },
+      "pricing_updated_at": "2026-05-22",
+      "pricing_source": "",
+      "deprecated": false,
+      "tolvyn_verified": true,
+      "last_synced": "2026-05-22T07:36:45Z"
+    },
+    {
+      "model_id": "gpt-5.4",
+      "provider": "openai",
+      "display_name": "GPT 5.4",
+      "model_family": null,
+      "modality": "text",
+      "context_window": null,
+      "pricing": {
+        "input_per_mtok": 2.5,
+        "output_per_mtok": 15.0,
+        "cached_per_mtok": 0.25,
+        "currency": "USD",
+        "unit": "per_million_tokens"
+      },
+      "pricing_updated_at": "2026-05-22",
+      "pricing_source": "",
+      "deprecated": false,
+      "tolvyn_verified": true,
+      "last_synced": "2026-05-22T07:36:45Z"
+    },
+    {
+      "model_id": "gpt-5.5",
+      "provider": "openai",
+      "display_name": "GPT 5.5",
+      "model_family": null,
+      "modality": "text",
+      "context_window": null,
+      "pricing": {
+        "input_per_mtok": 5.0,
+        "output_per_mtok": 30.0,
+        "cached_per_mtok": 0.5,
+        "currency": "USD",
+        "unit": "per_million_tokens"
+      },
+      "pricing_updated_at": "2026-05-22",
+      "pricing_source": "",
+      "deprecated": false,
+      "tolvyn_verified": true,
+      "last_synced": "2026-05-22T07:36:45Z"
+    },
+    {
+      "model_id": "gpt-5",
+      "provider": "openai",
+      "display_name": "GPT 5",
+      "model_family": null,
+      "modality": "text",
+      "context_window": null,
+      "pricing": {
+        "input_per_mtok": 1.25,
+        "output_per_mtok": 10.0,
+        "cached_per_mtok": 0.125,
+        "currency": "USD",
+        "unit": "per_million_tokens"
+      },
+      "pricing_updated_at": "2026-05-22",
+      "pricing_source": "",
+      "deprecated": false,
+      "tolvyn_verified": true,
+      "last_synced": "2026-05-22T07:36:45Z"
     },
     {
       "model_id": "o1-mini",
@@ -381,11 +1061,11 @@
         "currency": "USD",
         "unit": "per_million_tokens"
       },
-      "pricing_updated_at": "2026-05-21",
+      "pricing_updated_at": "2026-05-22",
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-05-21T07:42:58Z"
+      "last_synced": "2026-05-22T07:36:45Z"
     },
     {
       "model_id": "o1",
@@ -401,11 +1081,11 @@
         "currency": "USD",
         "unit": "per_million_tokens"
       },
-      "pricing_updated_at": "2026-05-21",
+      "pricing_updated_at": "2026-05-22",
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-05-21T07:42:58Z"
+      "last_synced": "2026-05-22T07:36:45Z"
     },
     {
       "model_id": "o3-mini",
@@ -421,11 +1101,11 @@
         "currency": "USD",
         "unit": "per_million_tokens"
       },
-      "pricing_updated_at": "2026-05-21",
+      "pricing_updated_at": "2026-05-22",
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-05-21T07:42:58Z"
+      "last_synced": "2026-05-22T07:36:45Z"
     },
     {
       "model_id": "o3",
@@ -441,11 +1121,31 @@
         "currency": "USD",
         "unit": "per_million_tokens"
       },
-      "pricing_updated_at": "2026-05-21",
+      "pricing_updated_at": "2026-05-22",
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-05-21T07:42:58Z"
+      "last_synced": "2026-05-22T07:36:45Z"
+    },
+    {
+      "model_id": "o4-mini",
+      "provider": "openai",
+      "display_name": "o4 Mini",
+      "model_family": null,
+      "modality": "text",
+      "context_window": null,
+      "pricing": {
+        "input_per_mtok": 1.1,
+        "output_per_mtok": 4.4,
+        "cached_per_mtok": 0.275,
+        "currency": "USD",
+        "unit": "per_million_tokens"
+      },
+      "pricing_updated_at": "2026-05-22",
+      "pricing_source": "",
+      "deprecated": false,
+      "tolvyn_verified": true,
+      "last_synced": "2026-05-22T07:36:45Z"
     }
   ]
 }

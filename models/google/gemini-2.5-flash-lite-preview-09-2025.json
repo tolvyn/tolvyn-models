@@ -1,14 +1,14 @@
 {
-  "model_id": "gemini-2.0-flash",
+  "model_id": "gemini-2.5-flash-lite-preview-09-2025",
   "provider": "google",
-  "display_name": "Gemini 2.0 Flash",
+  "display_name": "Gemini 2.5 Flash Lite Preview 09 2025",
   "model_family": null,
   "modality": "text",
   "context_window": null,
   "pricing": {
     "input_per_mtok": 0.1,
     "output_per_mtok": 0.4,
-    "cached_per_mtok": 0.025,
+    "cached_per_mtok": 0.01,
     "currency": "USD",
     "unit": "per_million_tokens"
   },
