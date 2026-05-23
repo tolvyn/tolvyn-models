@@ -15,6 +15,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+          persist-credentials: true  # explicit; required so the push step can reuse the token
 
       - name: Fetch current pricing from TOLVYN operator API
         id: fetch
@@ -81,9 +82,20 @@ jobs:
 
       - name: Commit if changed
         if: steps.fetch.outputs.skip != 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config user.name "tolvyn-bot"
           git config user.email "bot@tolvyn.io"
+
+          # Switch the remote to HTTPS with the token baked into the URL.
+          # actions/checkout@v4 normally sets up http.extraheader for auth, but
+          # we hit exit-128 "could not read Username for github.com" on
+          # 2026-05-23 the first time the sync produced a non-empty diff.
+          # Token-in-URL is the most robust fallback — it doesn't depend on
+          # whatever git config the action installed.
+          git remote set-url origin "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+
           git add models/ index.json
           if git diff --staged --quiet; then
             echo "No pricing changes detected — nothing to commit"
