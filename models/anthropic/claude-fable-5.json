@@ -1,14 +1,14 @@
 {
-  "model_id": "gemini-2.0-flash-001",
-  "provider": "google",
-  "display_name": "Gemini 2.0 Flash 001",
+  "model_id": "claude-fable-5",
+  "provider": "anthropic",
+  "display_name": "Claude fable 5",
   "model_family": null,
   "modality": "text",
   "context_window": null,
   "pricing": {
-    "input_per_mtok": 0.15,
-    "output_per_mtok": 0.6,
-    "cached_per_mtok": 0.0375,
+    "input_per_mtok": 10.0,
+    "output_per_mtok": 50.0,
+    "cached_per_mtok": 1.0,
     "currency": "USD",
     "unit": "per_million_tokens"
   },
