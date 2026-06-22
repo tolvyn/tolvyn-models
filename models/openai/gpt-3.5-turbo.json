@@ -1,20 +1,20 @@
 {
   "model_id": "gpt-3.5-turbo",
   "provider": "openai",
-  "display_name": "GPT-3.5 Turbo",
-  "model_family": "gpt-3.5",
+  "display_name": "GPT 3.5 Turbo",
+  "model_family": null,
   "modality": "text",
-  "context_window": 16385,
+  "context_window": null,
   "pricing": {
-    "input_per_mtok": 0.50,
-    "output_per_mtok": 1.50,
-    "cached_per_mtok": 0.00,
+    "input_per_mtok": 0.5,
+    "output_per_mtok": 1.5,
+    "cached_per_mtok": 0.0,
     "currency": "USD",
     "unit": "per_million_tokens"
   },
-  "pricing_updated_at": "2026-05-15",
-  "pricing_source": "https://openai.com/api/pricing",
+  "pricing_updated_at": "2026-06-22",
+  "pricing_source": "",
   "deprecated": false,
   "tolvyn_verified": true,
-  "last_synced": "2026-05-15T03:00:00Z"
+  "last_synced": "2026-06-22T09:39:41Z"
 }

@@ -1,14 +1,14 @@
 {
-  "model_id": "gpt-4.1-nano",
-  "provider": "openai",
-  "display_name": "GPT 4.1 Nano",
+  "model_id": "deepseek-v4-pro",
+  "provider": "deepseek",
+  "display_name": "deepseek v4 Pro",
   "model_family": null,
   "modality": "text",
   "context_window": null,
   "pricing": {
-    "input_per_mtok": 0.1,
-    "output_per_mtok": 0.4,
-    "cached_per_mtok": 0.025,
+    "input_per_mtok": 0.435,
+    "output_per_mtok": 0.87,
+    "cached_per_mtok": 0.003625,
     "currency": "USD",
     "unit": "per_million_tokens"
   },
