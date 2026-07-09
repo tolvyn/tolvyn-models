@@ -46,6 +46,18 @@ jobs:
             exit 0
           fi
 
+          # Auth failures are NOT transient — a stale/revoked TOLVYN_OPERATOR_TOKEN
+          # would otherwise be swallowed by the graceful skip below and silently
+          # freeze the pricing DB (see the 2026-07-05 → 07-09 incident, where the
+          # sync 401'd for five days while every run still reported "success").
+          # Fail the job loudly so a token mismatch is visible immediately.
+          if [ "$HTTP_STATUS" = "401" ] || [ "$HTTP_STATUS" = "403" ]; then
+            BODY_PREVIEW=$(head -c 500 /tmp/tolvyn_models.json 2>/dev/null || echo "(empty)")
+            echo "::error::TOLVYN API returned HTTP $HTTP_STATUS (auth failure) — the TOLVYN_OPERATOR_TOKEN secret is stale or revoked. Update it to match the server and re-run."
+            echo "Response preview: $BODY_PREVIEW"
+            exit 1
+          fi
+
           if [ "$HTTP_STATUS" -lt 200 ] || [ "$HTTP_STATUS" -ge 300 ]; then
             BODY_PREVIEW=$(head -c 500 /tmp/tolvyn_models.json 2>/dev/null || echo "(empty)")
             echo "::warning::TOLVYN API returned HTTP $HTTP_STATUS — skipping sync"
