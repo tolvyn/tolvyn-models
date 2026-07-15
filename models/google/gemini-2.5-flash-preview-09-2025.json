@@ -8,13 +8,13 @@
   "pricing": {
     "input_per_mtok": 0.3,
     "output_per_mtok": 2.5,
-    "cached_per_mtok": 0.03,
+    "cached_per_mtok": 0.075,
     "currency": "USD",
     "unit": "per_million_tokens"
   },
-  "pricing_updated_at": "2026-07-14",
+  "pricing_updated_at": "2026-07-15",
   "pricing_source": "",
   "deprecated": false,
   "tolvyn_verified": true,
-  "last_synced": "2026-07-14T06:03:59Z"
+  "last_synced": "2026-07-15T06:07:30Z"
 }

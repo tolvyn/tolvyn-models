@@ -1,14 +1,14 @@
 {
-  "model_id": "gemini-3-pro-preview",
+  "model_id": "gemini-omni-flash-preview",
   "provider": "google",
-  "display_name": "Gemini 3 Pro Preview",
+  "display_name": "Gemini omni Flash Preview",
   "model_family": null,
   "modality": "text",
   "context_window": null,
   "pricing": {
-    "input_per_mtok": 2.0,
-    "output_per_mtok": 12.0,
-    "cached_per_mtok": 0.2,
+    "input_per_mtok": 1.5,
+    "output_per_mtok": 9.0,
+    "cached_per_mtok": 0.0,
     "currency": "USD",
     "unit": "per_million_tokens"
   },
