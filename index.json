@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-02T06:26:09Z",
-  "model_count": 79,
+  "generated_at": "2026-08-03T06:51:39Z",
+  "model_count": 82,
   "providers": [
     "anthropic",
     "deepseek",
@@ -22,11 +22,11 @@
         "currency": "USD",
         "unit": "per_million_tokens"
       },
-      "pricing_updated_at": "2026-08-02",
+      "pricing_updated_at": "2026-08-03",
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-08-02T06:26:09Z"
+      "last_synced": "2026-08-03T06:51:39Z"
     },
     {
       "model_id": "claude-3-5-sonnet",
@@ -62,11 +62,11 @@
         "currency": "USD",
         "unit": "per_million_tokens"
       },
-      "pricing_updated_at": "2026-08-02",
+      "pricing_updated_at": "2026-08-03",
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-08-02T06:26:09Z"
+      "last_synced": "2026-08-03T06:51:39Z"
     },
     {
       "model_id": "claude-3-opus",
@@ -102,11 +102,11 @@
         "currency": "USD",
         "unit": "per_million_tokens"
       },
-      "pricing_updated_at": "2026-08-02",
+      "pricing_updated_at": "2026-08-03",
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-08-02T06:26:09Z"
+      "last_synced": "2026-08-03T06:51:39Z"
     },
     {
       "model_id": "claude-haiku-4-5-20251001",
@@ -122,11 +122,11 @@
         "currency": "USD",
         "unit": "per_million_tokens"
       },
-      "pricing_updated_at": "2026-08-02",
+      "pricing_updated_at": "2026-08-03",
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-08-02T06:26:09Z"
+      "last_synced": "2026-08-03T06:51:39Z"
     },
     {
       "model_id": "claude-haiku-4-5",
@@ -142,11 +142,11 @@
         "currency": "USD",
         "unit": "per_million_tokens"
       },
-      "pricing_updated_at": "2026-08-02",
+      "pricing_updated_at": "2026-08-03",
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-08-02T06:26:09Z"
+      "last_synced": "2026-08-03T06:51:39Z"
     },
     {
       "model_id": "claude-opus-4-1",
@@ -162,11 +162,11 @@
         "currency": "USD",
         "unit": "per_million_tokens"
       },
-      "pricing_updated_at": "2026-08-02",
+      "pricing_updated_at": "2026-08-03",
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-08-02T06:26:09Z"
+      "last_synced": "2026-08-03T06:51:39Z"
     },
     {
       "model_id": "claude-opus-4-5",
@@ -182,11 +182,11 @@
         "currency": "USD",
         "unit": "per_million_tokens"
       },
-      "pricing_updated_at": "2026-08-02",
+      "pricing_updated_at": "2026-08-03",
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-08-02T06:26:09Z"
+      "last_synced": "2026-08-03T06:51:39Z"
     },
     {
       "model_id": "claude-opus-4-6",
@@ -202,11 +202,11 @@
         "currency": "USD",
         "unit": "per_million_tokens"
       },
-      "pricing_updated_at": "2026-08-02",
+      "pricing_updated_at": "2026-08-03",
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-08-02T06:26:09Z"
+      "last_synced": "2026-08-03T06:51:39Z"
     },
     {
       "model_id": "claude-opus-4-7",
@@ -222,11 +222,11 @@
         "currency": "USD",
         "unit": "per_million_tokens"
       },
-      "pricing_updated_at": "2026-08-02",
+      "pricing_updated_at": "2026-08-03",
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-08-02T06:26:09Z"
+      "last_synced": "2026-08-03T06:51:39Z"
     },
     {
       "model_id": "claude-opus-4-8",
@@ -242,11 +242,31 @@
         "currency": "USD",
         "unit": "per_million_tokens"
       },
-      "pricing_updated_at": "2026-08-02",
+      "pricing_updated_at": "2026-08-03",
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-08-02T06:26:09Z"
+      "last_synced": "2026-08-03T06:51:39Z"
+    },
+    {
+      "model_id": "claude-opus-5",
+      "provider": "anthropic",
+      "display_name": "Claude Opus 5",
+      "model_family": null,
+      "modality": "text",
+      "context_window": null,
+      "pricing": {
+        "input_per_mtok": 5.0,
+        "output_per_mtok": 25.0,
+        "cached_per_mtok": 0.5,
+        "currency": "USD",
+        "unit": "per_million_tokens"
+      },
+      "pricing_updated_at": "2026-08-03",
+      "pricing_source": "",
+      "deprecated": false,
+      "tolvyn_verified": true,
+      "last_synced": "2026-08-03T06:51:39Z"
     },
     {
       "model_id": "claude-sonnet-4-5",
@@ -262,11 +282,11 @@
         "currency": "USD",
         "unit": "per_million_tokens"
       },
-      "pricing_updated_at": "2026-08-02",
+      "pricing_updated_at": "2026-08-03",
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-08-02T06:26:09Z"
+      "last_synced": "2026-08-03T06:51:39Z"
     },
     {
       "model_id": "claude-sonnet-4-6",
@@ -282,11 +302,11 @@
         "currency": "USD",
         "unit": "per_million_tokens"
       },
-      "pricing_updated_at": "2026-08-02",
+      "pricing_updated_at": "2026-08-03",
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-08-02T06:26:09Z"
+      "last_synced": "2026-08-03T06:51:39Z"
     },
     {
       "model_id": "claude-sonnet-5",
@@ -302,11 +322,11 @@
         "currency": "USD",
         "unit": "per_million_tokens"
       },
-      "pricing_updated_at": "2026-08-02",
+      "pricing_updated_at": "2026-08-03",
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-08-02T06:26:09Z"
+      "last_synced": "2026-08-03T06:51:39Z"
     },
     {
       "model_id": "deepseek-chat",
@@ -322,11 +342,11 @@
         "currency": "USD",
         "unit": "per_million_tokens"
       },
-      "pricing_updated_at": "2026-08-02",
+      "pricing_updated_at": "2026-08-03",
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-08-02T06:26:09Z"
+      "last_synced": "2026-08-03T06:51:39Z"
     },
     {
       "model_id": "deepseek-reasoner",
@@ -342,11 +362,11 @@
         "currency": "USD",
         "unit": "per_million_tokens"
       },
-      "pricing_updated_at": "2026-08-02",
+      "pricing_updated_at": "2026-08-03",
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-08-02T06:26:09Z"
+      "last_synced": "2026-08-03T06:51:39Z"
     },
     {
       "model_id": "deepseek-v4-flash",
@@ -362,11 +382,11 @@
         "currency": "USD",
         "unit": "per_million_tokens"
       },
-      "pricing_updated_at": "2026-08-02",
+      "pricing_updated_at": "2026-08-03",
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-08-02T06:26:09Z"
+      "last_synced": "2026-08-03T06:51:39Z"
     },
     {
       "model_id": "deepseek-v4-pro",
@@ -382,11 +402,11 @@
         "currency": "USD",
         "unit": "per_million_tokens"
       },
-      "pricing_updated_at": "2026-08-02",
+      "pricing_updated_at": "2026-08-03",
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-08-02T06:26:09Z"
+      "last_synced": "2026-08-03T06:51:39Z"
     },
     {
       "model_id": "gemini-1.5-flash",
@@ -422,11 +442,11 @@
         "currency": "USD",
         "unit": "per_million_tokens"
       },
-      "pricing_updated_at": "2026-08-02",
+      "pricing_updated_at": "2026-08-03",
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-08-02T06:26:09Z"
+      "last_synced": "2026-08-03T06:51:39Z"
     },
     {
       "model_id": "gemini-2.0-flash-001",
@@ -442,11 +462,11 @@
         "currency": "USD",
         "unit": "per_million_tokens"
       },
-      "pricing_updated_at": "2026-08-02",
+      "pricing_updated_at": "2026-08-03",
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-08-02T06:26:09Z"
+      "last_synced": "2026-08-03T06:51:39Z"
     },
     {
       "model_id": "gemini-2.0-flash-lite-001",
@@ -462,11 +482,11 @@
         "currency": "USD",
         "unit": "per_million_tokens"
       },
-      "pricing_updated_at": "2026-08-02",
+      "pricing_updated_at": "2026-08-03",
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-08-02T06:26:09Z"
+      "last_synced": "2026-08-03T06:51:39Z"
     },
     {
       "model_id": "gemini-2.0-flash-lite",
@@ -482,11 +502,11 @@
         "currency": "USD",
         "unit": "per_million_tokens"
       },
-      "pricing_updated_at": "2026-08-02",
+      "pricing_updated_at": "2026-08-03",
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-08-02T06:26:09Z"
+      "last_synced": "2026-08-03T06:51:39Z"
     },
     {
       "model_id": "gemini-2.0-flash",
@@ -502,11 +522,11 @@
         "currency": "USD",
         "unit": "per_million_tokens"
       },
-      "pricing_updated_at": "2026-08-02",
+      "pricing_updated_at": "2026-08-03",
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-08-02T06:26:09Z"
+      "last_synced": "2026-08-03T06:51:39Z"
     },
     {
       "model_id": "gemini-2.5-flash-lite-preview-06-17",
@@ -522,11 +542,11 @@
         "currency": "USD",
         "unit": "per_million_tokens"
       },
-      "pricing_updated_at": "2026-08-02",
+      "pricing_updated_at": "2026-08-03",
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-08-02T06:26:09Z"
+      "last_synced": "2026-08-03T06:51:39Z"
     },
     {
       "model_id": "gemini-2.5-flash-lite-preview-09-2025",
@@ -542,11 +562,11 @@
         "currency": "USD",
         "unit": "per_million_tokens"
       },
-      "pricing_updated_at": "2026-08-02",
+      "pricing_updated_at": "2026-08-03",
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-08-02T06:26:09Z"
+      "last_synced": "2026-08-03T06:51:39Z"
     },
     {
       "model_id": "gemini-2.5-flash-lite",
@@ -562,11 +582,11 @@
         "currency": "USD",
         "unit": "per_million_tokens"
       },
-      "pricing_updated_at": "2026-08-02",
+      "pricing_updated_at": "2026-08-03",
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-08-02T06:26:09Z"
+      "last_synced": "2026-08-03T06:51:39Z"
     },
     {
       "model_id": "gemini-2.5-flash-preview-09-2025",
@@ -582,11 +602,11 @@
         "currency": "USD",
         "unit": "per_million_tokens"
       },
-      "pricing_updated_at": "2026-08-02",
+      "pricing_updated_at": "2026-08-03",
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-08-02T06:26:09Z"
+      "last_synced": "2026-08-03T06:51:39Z"
     },
     {
       "model_id": "gemini-2.5-flash",
@@ -602,11 +622,11 @@
         "currency": "USD",
         "unit": "per_million_tokens"
       },
-      "pricing_updated_at": "2026-08-02",
+      "pricing_updated_at": "2026-08-03",
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-08-02T06:26:09Z"
+      "last_synced": "2026-08-03T06:51:39Z"
     },
     {
       "model_id": "gemini-2.5-pro",
@@ -622,11 +642,11 @@
         "currency": "USD",
         "unit": "per_million_tokens"
       },
-      "pricing_updated_at": "2026-08-02",
+      "pricing_updated_at": "2026-08-03",
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-08-02T06:26:09Z"
+      "last_synced": "2026-08-03T06:51:39Z"
     },
     {
       "model_id": "gemini-3-flash-preview",
@@ -642,11 +662,11 @@
         "currency": "USD",
         "unit": "per_million_tokens"
       },
-      "pricing_updated_at": "2026-08-02",
+      "pricing_updated_at": "2026-08-03",
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-08-02T06:26:09Z"
+      "last_synced": "2026-08-03T06:51:39Z"
     },
     {
       "model_id": "gemini-3-pro-preview",
@@ -662,11 +682,11 @@
         "currency": "USD",
         "unit": "per_million_tokens"
       },
-      "pricing_updated_at": "2026-08-02",
+      "pricing_updated_at": "2026-08-03",
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-08-02T06:26:09Z"
+      "last_synced": "2026-08-03T06:51:39Z"
     },
     {
       "model_id": "gemini-3.1-flash-lite-preview",
@@ -682,11 +702,11 @@
         "currency": "USD",
         "unit": "per_million_tokens"
       },
-      "pricing_updated_at": "2026-08-02",
+      "pricing_updated_at": "2026-08-03",
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-08-02T06:26:09Z"
+      "last_synced": "2026-08-03T06:51:39Z"
     },
     {
       "model_id": "gemini-3.1-flash-lite",
@@ -702,11 +722,11 @@
         "currency": "USD",
         "unit": "per_million_tokens"
       },
-      "pricing_updated_at": "2026-08-02",
+      "pricing_updated_at": "2026-08-03",
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-08-02T06:26:09Z"
+      "last_synced": "2026-08-03T06:51:39Z"
     },
     {
       "model_id": "gemini-3.1-flash-live-preview",
@@ -722,11 +742,11 @@
         "currency": "USD",
         "unit": "per_million_tokens"
       },
-      "pricing_updated_at": "2026-08-02",
+      "pricing_updated_at": "2026-08-03",
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-08-02T06:26:09Z"
+      "last_synced": "2026-08-03T06:51:39Z"
     },
     {
       "model_id": "gemini-3.1-pro-preview-customtools",
@@ -742,11 +762,11 @@
         "currency": "USD",
         "unit": "per_million_tokens"
       },
-      "pricing_updated_at": "2026-08-02",
+      "pricing_updated_at": "2026-08-03",
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-08-02T06:26:09Z"
+      "last_synced": "2026-08-03T06:51:39Z"
     },
     {
       "model_id": "gemini-3.1-pro-preview",
@@ -762,11 +782,31 @@
         "currency": "USD",
         "unit": "per_million_tokens"
       },
-      "pricing_updated_at": "2026-08-02",
+      "pricing_updated_at": "2026-08-03",
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-08-02T06:26:09Z"
+      "last_synced": "2026-08-03T06:51:39Z"
+    },
+    {
+      "model_id": "gemini-3.5-flash-lite",
+      "provider": "google",
+      "display_name": "Gemini 3.5 Flash Lite",
+      "model_family": null,
+      "modality": "text",
+      "context_window": null,
+      "pricing": {
+        "input_per_mtok": 0.3,
+        "output_per_mtok": 2.5,
+        "cached_per_mtok": 0.03,
+        "currency": "USD",
+        "unit": "per_million_tokens"
+      },
+      "pricing_updated_at": "2026-08-03",
+      "pricing_source": "",
+      "deprecated": false,
+      "tolvyn_verified": true,
+      "last_synced": "2026-08-03T06:51:39Z"
     },
     {
       "model_id": "gemini-3.5-flash",
@@ -782,11 +822,31 @@
         "currency": "USD",
         "unit": "per_million_tokens"
       },
-      "pricing_updated_at": "2026-08-02",
+      "pricing_updated_at": "2026-08-03",
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-08-02T06:26:09Z"
+      "last_synced": "2026-08-03T06:51:39Z"
+    },
+    {
+      "model_id": "gemini-3.6-flash",
+      "provider": "google",
+      "display_name": "Gemini 3.6 Flash",
+      "model_family": null,
+      "modality": "text",
+      "context_window": null,
+      "pricing": {
+        "input_per_mtok": 1.5,
+        "output_per_mtok": 7.5,
+        "cached_per_mtok": 0.15,
+        "currency": "USD",
+        "unit": "per_million_tokens"
+      },
+      "pricing_updated_at": "2026-08-03",
+      "pricing_source": "",
+      "deprecated": false,
+      "tolvyn_verified": true,
+      "last_synced": "2026-08-03T06:51:39Z"
     },
     {
       "model_id": "gemini-omni-flash-preview",
@@ -802,11 +862,11 @@
         "currency": "USD",
         "unit": "per_million_tokens"
       },
-      "pricing_updated_at": "2026-08-02",
+      "pricing_updated_at": "2026-08-03",
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-08-02T06:26:09Z"
+      "last_synced": "2026-08-03T06:51:39Z"
     },
     {
       "model_id": "gpt-3.5-turbo-0125",
@@ -822,11 +882,11 @@
         "currency": "USD",
         "unit": "per_million_tokens"
       },
-      "pricing_updated_at": "2026-08-02",
+      "pricing_updated_at": "2026-08-03",
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-08-02T06:26:09Z"
+      "last_synced": "2026-08-03T06:51:39Z"
     },
     {
       "model_id": "gpt-3.5-turbo-1106",
@@ -842,11 +902,11 @@
         "currency": "USD",
         "unit": "per_million_tokens"
       },
-      "pricing_updated_at": "2026-08-02",
+      "pricing_updated_at": "2026-08-03",
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-08-02T06:26:09Z"
+      "last_synced": "2026-08-03T06:51:39Z"
     },
     {
       "model_id": "gpt-3.5-turbo-16k",
@@ -862,11 +922,11 @@
         "currency": "USD",
         "unit": "per_million_tokens"
       },
-      "pricing_updated_at": "2026-08-02",
+      "pricing_updated_at": "2026-08-03",
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-08-02T06:26:09Z"
+      "last_synced": "2026-08-03T06:51:39Z"
     },
     {
       "model_id": "gpt-3.5-turbo",
@@ -882,11 +942,11 @@
         "currency": "USD",
         "unit": "per_million_tokens"
       },
-      "pricing_updated_at": "2026-08-02",
+      "pricing_updated_at": "2026-08-03",
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-08-02T06:26:09Z"
+      "last_synced": "2026-08-03T06:51:39Z"
     },
     {
       "model_id": "gpt-4-0125-preview",
@@ -902,11 +962,11 @@
         "currency": "USD",
         "unit": "per_million_tokens"
       },
-      "pricing_updated_at": "2026-08-02",
+      "pricing_updated_at": "2026-08-03",
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-08-02T06:26:09Z"
+      "last_synced": "2026-08-03T06:51:39Z"
     },
     {
       "model_id": "gpt-4-0314",
@@ -922,11 +982,11 @@
         "currency": "USD",
         "unit": "per_million_tokens"
       },
-      "pricing_updated_at": "2026-08-02",
+      "pricing_updated_at": "2026-08-03",
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-08-02T06:26:09Z"
+      "last_synced": "2026-08-03T06:51:39Z"
     },
     {
       "model_id": "gpt-4-0613",
@@ -942,11 +1002,11 @@
         "currency": "USD",
         "unit": "per_million_tokens"
       },
-      "pricing_updated_at": "2026-08-02",
+      "pricing_updated_at": "2026-08-03",
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-08-02T06:26:09Z"
+      "last_synced": "2026-08-03T06:51:39Z"
     },
     {
       "model_id": "gpt-4-1106-preview",
@@ -962,11 +1022,11 @@
         "currency": "USD",
         "unit": "per_million_tokens"
       },
-      "pricing_updated_at": "2026-08-02",
+      "pricing_updated_at": "2026-08-03",
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-08-02T06:26:09Z"
+      "last_synced": "2026-08-03T06:51:39Z"
     },
     {
       "model_id": "gpt-4-turbo-preview",
@@ -982,11 +1042,11 @@
         "currency": "USD",
         "unit": "per_million_tokens"
       },
-      "pricing_updated_at": "2026-08-02",
+      "pricing_updated_at": "2026-08-03",
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-08-02T06:26:09Z"
+      "last_synced": "2026-08-03T06:51:39Z"
     },
     {
       "model_id": "gpt-4-turbo",
@@ -1002,11 +1062,11 @@
         "currency": "USD",
         "unit": "per_million_tokens"
       },
-      "pricing_updated_at": "2026-08-02",
+      "pricing_updated_at": "2026-08-03",
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-08-02T06:26:09Z"
+      "last_synced": "2026-08-03T06:51:39Z"
     },
     {
       "model_id": "gpt-4.1-mini",
@@ -1022,11 +1082,11 @@
         "currency": "USD",
         "unit": "per_million_tokens"
       },
-      "pricing_updated_at": "2026-08-02",
+      "pricing_updated_at": "2026-08-03",
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-08-02T06:26:09Z"
+      "last_synced": "2026-08-03T06:51:39Z"
     },
     {
       "model_id": "gpt-4.1-nano",
@@ -1042,11 +1102,11 @@
         "currency": "USD",
         "unit": "per_million_tokens"
       },
-      "pricing_updated_at": "2026-08-02",
+      "pricing_updated_at": "2026-08-03",
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-08-02T06:26:09Z"
+      "last_synced": "2026-08-03T06:51:39Z"
     },
     {
       "model_id": "gpt-4.1",
@@ -1062,11 +1122,11 @@
         "currency": "USD",
         "unit": "per_million_tokens"
       },
-      "pricing_updated_at": "2026-08-02",
+      "pricing_updated_at": "2026-08-03",
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-08-02T06:26:09Z"
+      "last_synced": "2026-08-03T06:51:39Z"
     },
     {
       "model_id": "gpt-4",
@@ -1082,11 +1142,11 @@
         "currency": "USD",
         "unit": "per_million_tokens"
       },
-      "pricing_updated_at": "2026-08-02",
+      "pricing_updated_at": "2026-08-03",
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-08-02T06:26:09Z"
+      "last_synced": "2026-08-03T06:51:39Z"
     },
     {
       "model_id": "gpt-4o-2024-08-06",
@@ -1102,11 +1162,11 @@
         "currency": "USD",
         "unit": "per_million_tokens"
       },
-      "pricing_updated_at": "2026-08-02",
+      "pricing_updated_at": "2026-08-03",
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-08-02T06:26:09Z"
+      "last_synced": "2026-08-03T06:51:39Z"
     },
     {
       "model_id": "gpt-4o-mini-search-preview",
@@ -1122,11 +1182,11 @@
         "currency": "USD",
         "unit": "per_million_tokens"
       },
-      "pricing_updated_at": "2026-08-02",
+      "pricing_updated_at": "2026-08-03",
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-08-02T06:26:09Z"
+      "last_synced": "2026-08-03T06:51:39Z"
     },
     {
       "model_id": "gpt-4o-mini",
@@ -1142,11 +1202,11 @@
         "currency": "USD",
         "unit": "per_million_tokens"
       },
-      "pricing_updated_at": "2026-08-02",
+      "pricing_updated_at": "2026-08-03",
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-08-02T06:26:09Z"
+      "last_synced": "2026-08-03T06:51:39Z"
     },
     {
       "model_id": "gpt-4o-search-preview",
@@ -1162,11 +1222,11 @@
         "currency": "USD",
         "unit": "per_million_tokens"
       },
-      "pricing_updated_at": "2026-08-02",
+      "pricing_updated_at": "2026-08-03",
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-08-02T06:26:09Z"
+      "last_synced": "2026-08-03T06:51:39Z"
     },
     {
       "model_id": "gpt-4o",
@@ -1182,11 +1242,11 @@
         "currency": "USD",
         "unit": "per_million_tokens"
       },
-      "pricing_updated_at": "2026-08-02",
+      "pricing_updated_at": "2026-08-03",
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-08-02T06:26:09Z"
+      "last_synced": "2026-08-03T06:51:39Z"
     },
     {
       "model_id": "gpt-5-chat",
@@ -1202,11 +1262,11 @@
         "currency": "USD",
         "unit": "per_million_tokens"
       },
-      "pricing_updated_at": "2026-08-02",
+      "pricing_updated_at": "2026-08-03",
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-08-02T06:26:09Z"
+      "last_synced": "2026-08-03T06:51:39Z"
     },
     {
       "model_id": "gpt-5-mini",
@@ -1222,11 +1282,11 @@
         "currency": "USD",
         "unit": "per_million_tokens"
       },
-      "pricing_updated_at": "2026-08-02",
+      "pricing_updated_at": "2026-08-03",
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-08-02T06:26:09Z"
+      "last_synced": "2026-08-03T06:51:39Z"
     },
     {
       "model_id": "gpt-5-nano",
@@ -1242,11 +1302,11 @@
         "currency": "USD",
         "unit": "per_million_tokens"
       },
-      "pricing_updated_at": "2026-08-02",
+      "pricing_updated_at": "2026-08-03",
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-08-02T06:26:09Z"
+      "last_synced": "2026-08-03T06:51:39Z"
     },
     {
       "model_id": "gpt-5-search-api",
@@ -1262,11 +1322,11 @@
         "currency": "USD",
         "unit": "per_million_tokens"
       },
-      "pricing_updated_at": "2026-08-02",
+      "pricing_updated_at": "2026-08-03",
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-08-02T06:26:09Z"
+      "last_synced": "2026-08-03T06:51:39Z"
     },
     {
       "model_id": "gpt-5.1",
@@ -1282,11 +1342,11 @@
         "currency": "USD",
         "unit": "per_million_tokens"
       },
-      "pricing_updated_at": "2026-08-02",
+      "pricing_updated_at": "2026-08-03",
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-08-02T06:26:09Z"
+      "last_synced": "2026-08-03T06:51:39Z"
     },
     {
       "model_id": "gpt-5.2",
@@ -1302,11 +1362,11 @@
         "currency": "USD",
         "unit": "per_million_tokens"
       },
-      "pricing_updated_at": "2026-08-02",
+      "pricing_updated_at": "2026-08-03",
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-08-02T06:26:09Z"
+      "last_synced": "2026-08-03T06:51:39Z"
     },
     {
       "model_id": "gpt-5.4-mini",
@@ -1322,11 +1382,11 @@
         "currency": "USD",
         "unit": "per_million_tokens"
       },
-      "pricing_updated_at": "2026-08-02",
+      "pricing_updated_at": "2026-08-03",
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-08-02T06:26:09Z"
+      "last_synced": "2026-08-03T06:51:39Z"
     },
     {
       "model_id": "gpt-5.4-nano",
@@ -1342,11 +1402,11 @@
         "currency": "USD",
         "unit": "per_million_tokens"
       },
-      "pricing_updated_at": "2026-08-02",
+      "pricing_updated_at": "2026-08-03",
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-08-02T06:26:09Z"
+      "last_synced": "2026-08-03T06:51:39Z"
     },
     {
       "model_id": "gpt-5.4",
@@ -1362,11 +1422,11 @@
         "currency": "USD",
         "unit": "per_million_tokens"
       },
-      "pricing_updated_at": "2026-08-02",
+      "pricing_updated_at": "2026-08-03",
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-08-02T06:26:09Z"
+      "last_synced": "2026-08-03T06:51:39Z"
     },
     {
       "model_id": "gpt-5.5",
@@ -1382,11 +1442,11 @@
         "currency": "USD",
         "unit": "per_million_tokens"
       },
-      "pricing_updated_at": "2026-08-02",
+      "pricing_updated_at": "2026-08-03",
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-08-02T06:26:09Z"
+      "last_synced": "2026-08-03T06:51:39Z"
     },
     {
       "model_id": "gpt-5.6-luna",
@@ -1396,17 +1456,17 @@
       "modality": "text",
       "context_window": null,
       "pricing": {
-        "input_per_mtok": 1.0,
-        "output_per_mtok": 6.0,
-        "cached_per_mtok": 0.1,
+        "input_per_mtok": 0.2,
+        "output_per_mtok": 1.2,
+        "cached_per_mtok": 0.02,
         "currency": "USD",
         "unit": "per_million_tokens"
       },
-      "pricing_updated_at": "2026-08-02",
+      "pricing_updated_at": "2026-08-03",
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-08-02T06:26:09Z"
+      "last_synced": "2026-08-03T06:51:39Z"
     },
     {
       "model_id": "gpt-5.6-sol",
@@ -1422,11 +1482,11 @@
         "currency": "USD",
         "unit": "per_million_tokens"
       },
-      "pricing_updated_at": "2026-08-02",
+      "pricing_updated_at": "2026-08-03",
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-08-02T06:26:09Z"
+      "last_synced": "2026-08-03T06:51:39Z"
     },
     {
       "model_id": "gpt-5.6-terra",
@@ -1436,17 +1496,17 @@
       "modality": "text",
       "context_window": null,
       "pricing": {
-        "input_per_mtok": 2.5,
-        "output_per_mtok": 15.0,
-        "cached_per_mtok": 0.25,
+        "input_per_mtok": 2.0,
+        "output_per_mtok": 12.0,
+        "cached_per_mtok": 0.2,
         "currency": "USD",
         "unit": "per_million_tokens"
       },
-      "pricing_updated_at": "2026-08-02",
+      "pricing_updated_at": "2026-08-03",
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-08-02T06:26:09Z"
+      "last_synced": "2026-08-03T06:51:39Z"
     },
     {
       "model_id": "gpt-5.6",
@@ -1462,11 +1522,11 @@
         "currency": "USD",
         "unit": "per_million_tokens"
       },
-      "pricing_updated_at": "2026-08-02",
+      "pricing_updated_at": "2026-08-03",
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-08-02T06:26:09Z"
+      "last_synced": "2026-08-03T06:51:39Z"
     },
     {
       "model_id": "gpt-5",
@@ -1482,11 +1542,11 @@
         "currency": "USD",
         "unit": "per_million_tokens"
       },
-      "pricing_updated_at": "2026-08-02",
+      "pricing_updated_at": "2026-08-03",
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-08-02T06:26:09Z"
+      "last_synced": "2026-08-03T06:51:39Z"
     },
     {
       "model_id": "o1-mini",
@@ -1502,11 +1562,11 @@
         "currency": "USD",
         "unit": "per_million_tokens"
       },
-      "pricing_updated_at": "2026-08-02",
+      "pricing_updated_at": "2026-08-03",
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-08-02T06:26:09Z"
+      "last_synced": "2026-08-03T06:51:39Z"
     },
     {
       "model_id": "o1",
@@ -1522,11 +1582,11 @@
         "currency": "USD",
         "unit": "per_million_tokens"
       },
-      "pricing_updated_at": "2026-08-02",
+      "pricing_updated_at": "2026-08-03",
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-08-02T06:26:09Z"
+      "last_synced": "2026-08-03T06:51:39Z"
     },
     {
       "model_id": "o3-mini",
@@ -1542,11 +1602,11 @@
         "currency": "USD",
         "unit": "per_million_tokens"
       },
-      "pricing_updated_at": "2026-08-02",
+      "pricing_updated_at": "2026-08-03",
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-08-02T06:26:09Z"
+      "last_synced": "2026-08-03T06:51:39Z"
     },
     {
       "model_id": "o3",
@@ -1562,11 +1622,11 @@
         "currency": "USD",
         "unit": "per_million_tokens"
       },
-      "pricing_updated_at": "2026-08-02",
+      "pricing_updated_at": "2026-08-03",
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-08-02T06:26:09Z"
+      "last_synced": "2026-08-03T06:51:39Z"
     },
     {
       "model_id": "o4-mini",
@@ -1582,11 +1642,11 @@
         "currency": "USD",
         "unit": "per_million_tokens"
       },
-      "pricing_updated_at": "2026-08-02",
+      "pricing_updated_at": "2026-08-03",
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-08-02T06:26:09Z"
+      "last_synced": "2026-08-03T06:51:39Z"
     }
   ]
 }
