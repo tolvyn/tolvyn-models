@@ -1,14 +1,14 @@
 {
-  "model_id": "gpt-3.5-turbo-16k",
-  "provider": "openai",
-  "display_name": "GPT 3.5 Turbo 16k",
+  "model_id": "gemini-3.7-flash",
+  "provider": "google",
+  "display_name": "Gemini 3.7 Flash",
   "model_family": null,
   "modality": "text",
   "context_window": null,
   "pricing": {
-    "input_per_mtok": 3.0,
-    "output_per_mtok": 4.0,
-    "cached_per_mtok": 0.0,
+    "input_per_mtok": 0.75,
+    "output_per_mtok": 3.75,
+    "cached_per_mtok": 0.075,
     "currency": "USD",
     "unit": "per_million_tokens"
   },
