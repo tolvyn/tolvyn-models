@@ -1,14 +1,14 @@
 {
-  "model_id": "claude-3-opus-20240229",
-  "provider": "anthropic",
-  "display_name": "Claude 3 Opus",
-  "model_family": "claude-3-opus",
+  "model_id": "deepseek-v4-flash-vision-exp",
+  "provider": "deepseek",
+  "display_name": "deepseek v4 Flash vision exp",
+  "model_family": null,
   "modality": "text",
   "context_window": null,
   "pricing": {
-    "input_per_mtok": 15.0,
-    "output_per_mtok": 75.0,
-    "cached_per_mtok": 1.5,
+    "input_per_mtok": 0.44,
+    "output_per_mtok": 1.32,
+    "cached_per_mtok": 0.014,
     "currency": "USD",
     "unit": "per_million_tokens"
   },

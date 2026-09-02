@@ -1,14 +1,14 @@
 {
-  "model_id": "claude-3-opus-20240229",
+  "model_id": "claude-fable-5-1",
   "provider": "anthropic",
-  "display_name": "Claude 3 Opus",
-  "model_family": "claude-3-opus",
+  "display_name": "Claude fable 5 1",
+  "model_family": null,
   "modality": "text",
   "context_window": null,
   "pricing": {
-    "input_per_mtok": 15.0,
-    "output_per_mtok": 75.0,
-    "cached_per_mtok": 1.5,
+    "input_per_mtok": 10.0,
+    "output_per_mtok": 50.0,
+    "cached_per_mtok": 0.25,
     "currency": "USD",
     "unit": "per_million_tokens"
   },
