@@ -1,14 +1,14 @@
 {
-  "model_id": "claude-mythos-5",
-  "provider": "anthropic",
-  "display_name": "Claude mythos 5",
+  "model_id": "gemini-3.8-flash",
+  "provider": "google",
+  "display_name": "Gemini 3.8 Flash",
   "model_family": null,
   "modality": "text",
   "context_window": null,
   "pricing": {
-    "input_per_mtok": 10.0,
-    "output_per_mtok": 50.0,
-    "cached_per_mtok": 1.0,
+    "input_per_mtok": 0.75,
+    "output_per_mtok": 3.75,
+    "cached_per_mtok": 0.075,
     "currency": "USD",
     "unit": "per_million_tokens"
   },
