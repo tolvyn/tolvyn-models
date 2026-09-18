@@ -1,14 +1,14 @@
 {
-  "model_id": "claude-sonnet-5",
-  "provider": "anthropic",
-  "display_name": "Claude Sonnet 5",
+  "model_id": "gpt-rosalind-research",
+  "provider": "openai",
+  "display_name": "GPT rosalind research",
   "model_family": null,
   "modality": "text",
   "context_window": null,
   "pricing": {
-    "input_per_mtok": 2.0,
-    "output_per_mtok": 10.0,
-    "cached_per_mtok": 0.2,
+    "input_per_mtok": 5.0,
+    "output_per_mtok": 25.0,
+    "cached_per_mtok": 0.5,
     "currency": "USD",
     "unit": "per_million_tokens"
   },

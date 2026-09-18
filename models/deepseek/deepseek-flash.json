@@ -1,14 +1,14 @@
 {
-  "model_id": "claude-sonnet-5",
-  "provider": "anthropic",
-  "display_name": "Claude Sonnet 5",
+  "model_id": "deepseek-flash",
+  "provider": "deepseek",
+  "display_name": "deepseek Flash",
   "model_family": null,
   "modality": "text",
   "context_window": null,
   "pricing": {
-    "input_per_mtok": 2.0,
-    "output_per_mtok": 10.0,
-    "cached_per_mtok": 0.2,
+    "input_per_mtok": 0.3,
+    "output_per_mtok": 1.2,
+    "cached_per_mtok": 0.006,
     "currency": "USD",
     "unit": "per_million_tokens"
   },
