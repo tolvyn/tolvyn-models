@@ -1,14 +1,14 @@
 {
-  "model_id": "deepseek-chat",
-  "provider": "deepseek",
-  "display_name": "deepseek Chat",
+  "model_id": "gpt-6-sol",
+  "provider": "openai",
+  "display_name": "GPT 6 sol",
   "model_family": null,
   "modality": "text",
   "context_window": null,
   "pricing": {
-    "input_per_mtok": 0.28,
-    "output_per_mtok": 0.42,
-    "cached_per_mtok": 0.028,
+    "input_per_mtok": 2.0,
+    "output_per_mtok": 10.0,
+    "cached_per_mtok": 0.2,
     "currency": "USD",
     "unit": "per_million_tokens"
   },
