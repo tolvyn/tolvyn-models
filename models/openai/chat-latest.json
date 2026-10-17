@@ -1,0 +1,20 @@
+{
+  "model_id": "chat-latest",
+  "provider": "openai",
+  "display_name": "ChatGPT latest",
+  "model_family": null,
+  "modality": "text",
+  "context_window": null,
+  "pricing": {
+    "input_per_mtok": 5.0,
+    "output_per_mtok": 30.0,
+    "cached_per_mtok": 0.5,
+    "currency": "USD",
+    "unit": "per_million_tokens"
+  },
+  "pricing_updated_at": "2026-10-17",
+  "pricing_source": "",
+  "deprecated": false,
+  "tolvyn_verified": true,
+  "last_synced": "2026-10-17T08:08:29Z"
+}
