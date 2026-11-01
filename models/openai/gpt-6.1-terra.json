@@ -1,0 +1,20 @@
+{
+  "model_id": "gpt-6.1-terra",
+  "provider": "openai",
+  "display_name": "GPT 6.1 terra",
+  "model_family": null,
+  "modality": "text",
+  "context_window": null,
+  "pricing": {
+    "input_per_mtok": 1.0,
+    "output_per_mtok": 5.0,
+    "cached_per_mtok": 0.05,
+    "currency": "USD",
+    "unit": "per_million_tokens"
+  },
+  "pricing_updated_at": "2026-11-01",
+  "pricing_source": "",
+  "deprecated": false,
+  "tolvyn_verified": true,
+  "last_synced": "2026-11-01T10:54:16Z"
+}
