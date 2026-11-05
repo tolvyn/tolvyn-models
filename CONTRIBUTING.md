@@ -1,20 +1,15 @@
 # Contributing to tolvyn-models
 
-## Adding a new model
+This repository is published from TOLVYN's pricing catalogue by a daily sync, so the model
+files are not edited here.
 
-1. Create `models/{provider}/{model_id}.json` using the schema in README.md
-2. Add the model to `index.json`
-3. Include `pricing_source` URL (official provider docs only)
-4. Open a PR — reviewed within 24 hours
+## A wrong or missing price
 
-## Correcting pricing
+Open an issue, or email founder@tolvyn.io, with:
 
-1. Edit the model JSON file
-2. Update `pricing_updated_at` to today's date
-3. Include the source URL in your PR description
-4. Open a PR
+1. The model ID
+2. The correct price
+3. A link to the provider's own pricing page
 
-## Automated sync
-
-This repo syncs nightly from TOLVYN's verified pricing database.
-Manual PRs are also welcome and reviewed by the TOLVYN team.
+We fix the catalogue, and the next daily sync publishes it. Please do not open a pull request
+for a price or a model file.

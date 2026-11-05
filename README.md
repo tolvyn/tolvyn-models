@@ -102,8 +102,7 @@ console.log(gpt4o.pricing.input_per_mtok) // 2.50
 
 ## Contributing
 
-See [CONTRIBUTING.md](CONTRIBUTING.md). PRs welcome for new models or pricing corrections.
-All corrections reviewed within 24 hours.
+Price corrections come by issue or email to founder@tolvyn.io, not by pull request: see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## License
 
