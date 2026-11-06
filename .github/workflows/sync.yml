@@ -12,32 +12,23 @@ jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           persist-credentials: true  # explicit; required so the push step can reuse the token
 
-      - name: Fetch current pricing from TOLVYN operator API
+      - name: Fetch current pricing from the public TOLVYN catalogue
         id: fetch
-        env:
-          TOLVYN_OPERATOR_TOKEN: ${{ secrets.TOLVYN_OPERATOR_TOKEN }}
         run: |
           # Don't use `set -e` for this step — we want to handle failures gracefully.
           set +e
-
-          if [ -z "$TOLVYN_OPERATOR_TOKEN" ]; then
-            echo "::warning::TOLVYN_OPERATOR_TOKEN secret is not set — skipping sync"
-            echo "skip=true" >> "$GITHUB_OUTPUT"
-            exit 0
-          fi
 
           # Capture body and HTTP status separately. -s silences progress, NO -f
           # so we still get the body on error responses.
           HTTP_STATUS=$(curl -s -o /tmp/tolvyn_models.json \
             -w "%{http_code}" \
-            -H "Authorization: Bearer $TOLVYN_OPERATOR_TOKEN" \
             --max-time 30 \
-            "https://api.tolvyn.io/v1/operator/models")
+            "https://api.tolvyn.io/v1/public/models")
           CURL_EXIT=$?
 
           if [ "$CURL_EXIT" -ne 0 ]; then
@@ -46,14 +37,12 @@ jobs:
             exit 0
           fi
 
-          # Auth failures are NOT transient — a stale/revoked TOLVYN_OPERATOR_TOKEN
-          # would otherwise be swallowed by the graceful skip below and silently
-          # freeze the pricing DB (see the 2026-07-05 → 07-09 incident, where the
-          # sync 401'd for five days while every run still reported "success").
-          # Fail the job loudly so a token mismatch is visible immediately.
-          if [ "$HTTP_STATUS" = "401" ] || [ "$HTTP_STATUS" = "403" ]; then
+          # A 4xx is NOT transient: this route moved or was refused, and skipping would
+          # silently freeze the catalogue (a 401 did exactly that for five days in July
+          # 2026 while every run reported success). Fail the job so it is visible.
+          if [ "$HTTP_STATUS" -ge 400 ] && [ "$HTTP_STATUS" -lt 500 ]; then
             BODY_PREVIEW=$(head -c 500 /tmp/tolvyn_models.json 2>/dev/null || echo "(empty)")
-            echo "::error::TOLVYN API returned HTTP $HTTP_STATUS (auth failure) — the TOLVYN_OPERATOR_TOKEN secret is stale or revoked. Update it to match the server and re-run."
+            echo "::error::TOLVYN API returned HTTP $HTTP_STATUS for the public catalogue"
             echo "Response preview: $BODY_PREVIEW"
             exit 1
           fi
@@ -67,8 +56,8 @@ jobs:
           fi
 
           # Validate that the response is parseable JSON containing model rows.
-          # The endpoint returns a bare JSON array; older formats wrapped in
-          # {data: [...]} or {models: [...]} are also accepted defensively.
+          # The endpoint returns {count, models: [...]}; a bare array or {data: [...]}
+          # is also accepted defensively.
           if ! jq -e 'type == "array" or (type == "object" and (has("data") or has("models")))' /tmp/tolvyn_models.json > /dev/null 2>&1; then
             BODY_PREVIEW=$(head -c 500 /tmp/tolvyn_models.json)
             echo "::warning::TOLVYN API returned unexpected payload shape — skipping sync"
@@ -101,7 +90,7 @@ jobs:
           git config user.email "bot@tolvyn.io"
 
           # Switch the remote to HTTPS with the token baked into the URL.
-          # actions/checkout@v4 normally sets up http.extraheader for auth, but
+          # actions/checkout normally sets up http.extraheader for auth, but
           # we hit exit-128 "could not read Username for github.com" on
           # 2026-05-23 the first time the sync produced a non-empty diff.
           # Token-in-URL is the most robust fallback — it doesn't depend on

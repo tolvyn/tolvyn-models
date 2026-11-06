@@ -7,8 +7,8 @@ def main():
     with open(sys.argv[1]) as f:
         data = json.load(f)
 
-    # The TOLVYN operator API returns a bare JSON array. Defensively accept
-    # legacy {data: [...]} or {models: [...]} wrappers as well.
+    # The public catalogue returns {count, models: [...]}, and it carries
+    # deprecated_at. Defensively accept a bare array or {data: [...]} as well.
     if isinstance(data, list):
         models = data
     elif isinstance(data, dict):
