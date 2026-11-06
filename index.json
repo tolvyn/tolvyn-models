@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T08:56:31Z",
+  "generated_at": "2026-11-06T09:00:25Z",
   "model_count": 116,
   "providers": [
     "anthropic",
@@ -12,7 +12,7 @@
       "model_id": "claude-3-5-sonnet-20241022",
       "provider": "anthropic",
       "display_name": "Claude 3.5 Sonnet",
-      "model_family": "claude-3-5-sonnet",
+      "model_family": null,
       "modality": "text",
       "context_window": null,
       "pricing": {
@@ -24,9 +24,9 @@
       },
       "pricing_updated_at": "2026-11-06",
       "pricing_source": "",
-      "deprecated": false,
+      "deprecated": true,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "claude-3-5-sonnet",
@@ -52,7 +52,7 @@
       "model_id": "claude-3-opus-20240229",
       "provider": "anthropic",
       "display_name": "Claude 3 Opus",
-      "model_family": "claude-3-opus",
+      "model_family": null,
       "modality": "text",
       "context_window": null,
       "pricing": {
@@ -64,9 +64,9 @@
       },
       "pricing_updated_at": "2026-11-06",
       "pricing_source": "",
-      "deprecated": false,
+      "deprecated": true,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "claude-3-opus",
@@ -106,7 +106,7 @@
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "claude-fable-5",
@@ -126,7 +126,7 @@
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "claude-haiku-4-5-20251001",
@@ -146,7 +146,7 @@
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "claude-haiku-4-5",
@@ -166,7 +166,7 @@
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "claude-haiku-5-5",
@@ -186,7 +186,7 @@
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "claude-mythos-5-1",
@@ -206,7 +206,7 @@
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "claude-mythos-5",
@@ -226,7 +226,7 @@
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "claude-mythos-preview",
@@ -246,7 +246,7 @@
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "claude-opus-4-1",
@@ -266,7 +266,7 @@
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "claude-opus-4-5",
@@ -286,7 +286,7 @@
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "claude-opus-4-6",
@@ -306,7 +306,7 @@
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "claude-opus-4-7",
@@ -326,7 +326,7 @@
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "claude-opus-4-8",
@@ -346,7 +346,7 @@
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "claude-opus-5-5",
@@ -366,7 +366,7 @@
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "claude-opus-5",
@@ -386,7 +386,7 @@
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "claude-sonnet-4-5",
@@ -406,7 +406,7 @@
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "claude-sonnet-4-6",
@@ -426,7 +426,7 @@
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "claude-sonnet-5-5",
@@ -446,7 +446,7 @@
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "claude-sonnet-5",
@@ -466,7 +466,7 @@
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "deepseek-chat",
@@ -486,7 +486,7 @@
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "deepseek-flash",
@@ -506,7 +506,7 @@
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "deepseek-reasoner",
@@ -526,7 +526,7 @@
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "deepseek-v4-flash-vision-exp",
@@ -546,7 +546,7 @@
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "deepseek-v4-flash",
@@ -566,7 +566,7 @@
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "deepseek-v4-pro",
@@ -586,7 +586,7 @@
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "gemini-1.5-flash",
@@ -612,7 +612,7 @@
       "model_id": "gemini-1.5-pro",
       "provider": "google",
       "display_name": "Gemini 1.5 Pro",
-      "model_family": "gemini-1.5-pro",
+      "model_family": null,
       "modality": "text",
       "context_window": null,
       "pricing": {
@@ -624,9 +624,9 @@
       },
       "pricing_updated_at": "2026-11-06",
       "pricing_source": "",
-      "deprecated": false,
+      "deprecated": true,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "gemini-2.0-flash-001",
@@ -644,9 +644,9 @@
       },
       "pricing_updated_at": "2026-11-06",
       "pricing_source": "",
-      "deprecated": false,
+      "deprecated": true,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "gemini-2.0-flash-lite-001",
@@ -664,9 +664,9 @@
       },
       "pricing_updated_at": "2026-11-06",
       "pricing_source": "",
-      "deprecated": false,
+      "deprecated": true,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "gemini-2.0-flash-lite",
@@ -684,9 +684,9 @@
       },
       "pricing_updated_at": "2026-11-06",
       "pricing_source": "",
-      "deprecated": false,
+      "deprecated": true,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "gemini-2.0-flash",
@@ -704,9 +704,9 @@
       },
       "pricing_updated_at": "2026-11-06",
       "pricing_source": "",
-      "deprecated": false,
+      "deprecated": true,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "gemini-2.5-flash-lite-preview-06-17",
@@ -726,7 +726,7 @@
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "gemini-2.5-flash-lite-preview-09-2025",
@@ -744,9 +744,9 @@
       },
       "pricing_updated_at": "2026-11-06",
       "pricing_source": "",
-      "deprecated": false,
+      "deprecated": true,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "gemini-2.5-flash-lite",
@@ -766,7 +766,7 @@
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "gemini-2.5-flash-preview-09-2025",
@@ -784,9 +784,9 @@
       },
       "pricing_updated_at": "2026-11-06",
       "pricing_source": "",
-      "deprecated": false,
+      "deprecated": true,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "gemini-2.5-flash",
@@ -806,7 +806,7 @@
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "gemini-2.5-pro",
@@ -826,7 +826,7 @@
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "gemini-3-flash-preview",
@@ -846,7 +846,7 @@
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "gemini-3-pro-preview",
@@ -864,9 +864,9 @@
       },
       "pricing_updated_at": "2026-11-06",
       "pricing_source": "",
-      "deprecated": false,
+      "deprecated": true,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "gemini-3.1-flash-lite-preview",
@@ -884,9 +884,9 @@
       },
       "pricing_updated_at": "2026-11-06",
       "pricing_source": "",
-      "deprecated": false,
+      "deprecated": true,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "gemini-3.1-flash-lite",
@@ -906,7 +906,7 @@
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "gemini-3.1-flash-live-preview",
@@ -926,7 +926,7 @@
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "gemini-3.1-pro-preview-customtools",
@@ -946,7 +946,7 @@
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "gemini-3.1-pro-preview",
@@ -966,7 +966,7 @@
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "gemini-3.5-flash-lite",
@@ -986,7 +986,7 @@
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "gemini-3.5-flash",
@@ -1006,7 +1006,7 @@
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "gemini-3.6-flash",
@@ -1026,7 +1026,7 @@
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "gemini-3.7-flash",
@@ -1046,7 +1046,7 @@
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "gemini-3.8-flash-cyber",
@@ -1066,7 +1066,7 @@
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "gemini-3.8-flash",
@@ -1086,7 +1086,7 @@
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "gemini-4-argon",
@@ -1106,7 +1106,7 @@
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "gemini-omni-flash-preview",
@@ -1124,9 +1124,9 @@
       },
       "pricing_updated_at": "2026-11-06",
       "pricing_source": "",
-      "deprecated": false,
+      "deprecated": true,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "chat-latest",
@@ -1146,7 +1146,7 @@
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "gpt-3.5-turbo-0125",
@@ -1164,9 +1164,9 @@
       },
       "pricing_updated_at": "2026-11-06",
       "pricing_source": "",
-      "deprecated": false,
+      "deprecated": true,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "gpt-3.5-turbo-1106",
@@ -1184,9 +1184,9 @@
       },
       "pricing_updated_at": "2026-11-06",
       "pricing_source": "",
-      "deprecated": false,
+      "deprecated": true,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "gpt-3.5-turbo-16k",
@@ -1206,7 +1206,7 @@
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "gpt-3.5-turbo",
@@ -1224,9 +1224,9 @@
       },
       "pricing_updated_at": "2026-11-06",
       "pricing_source": "",
-      "deprecated": false,
+      "deprecated": true,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "gpt-4-0125-preview",
@@ -1244,9 +1244,9 @@
       },
       "pricing_updated_at": "2026-11-06",
       "pricing_source": "",
-      "deprecated": false,
+      "deprecated": true,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "gpt-4-0314",
@@ -1264,9 +1264,9 @@
       },
       "pricing_updated_at": "2026-11-06",
       "pricing_source": "",
-      "deprecated": false,
+      "deprecated": true,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "gpt-4-0613",
@@ -1284,9 +1284,9 @@
       },
       "pricing_updated_at": "2026-11-06",
       "pricing_source": "",
-      "deprecated": false,
+      "deprecated": true,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "gpt-4-1106-preview",
@@ -1304,9 +1304,9 @@
       },
       "pricing_updated_at": "2026-11-06",
       "pricing_source": "",
-      "deprecated": false,
+      "deprecated": true,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "gpt-4-turbo-preview",
@@ -1324,9 +1324,9 @@
       },
       "pricing_updated_at": "2026-11-06",
       "pricing_source": "",
-      "deprecated": false,
+      "deprecated": true,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "gpt-4-turbo",
@@ -1344,9 +1344,9 @@
       },
       "pricing_updated_at": "2026-11-06",
       "pricing_source": "",
-      "deprecated": false,
+      "deprecated": true,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "gpt-4.1-mini",
@@ -1366,7 +1366,7 @@
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "gpt-4.1-nano",
@@ -1384,9 +1384,9 @@
       },
       "pricing_updated_at": "2026-11-06",
       "pricing_source": "",
-      "deprecated": false,
+      "deprecated": true,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "gpt-4.1",
@@ -1406,7 +1406,7 @@
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "gpt-4",
@@ -1424,9 +1424,9 @@
       },
       "pricing_updated_at": "2026-11-06",
       "pricing_source": "",
-      "deprecated": false,
+      "deprecated": true,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "gpt-4o-2024-05-13",
@@ -1444,15 +1444,15 @@
       },
       "pricing_updated_at": "2026-11-06",
       "pricing_source": "",
-      "deprecated": false,
+      "deprecated": true,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "gpt-4o-2024-08-06",
       "provider": "openai",
       "display_name": "GPT-4o (Aug 2024)",
-      "model_family": "gpt-4o",
+      "model_family": null,
       "modality": "text",
       "context_window": null,
       "pricing": {
@@ -1464,9 +1464,9 @@
       },
       "pricing_updated_at": "2026-11-06",
       "pricing_source": "",
-      "deprecated": false,
+      "deprecated": true,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "gpt-4o-mini-search-preview",
@@ -1486,7 +1486,7 @@
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "gpt-4o-mini",
@@ -1506,7 +1506,7 @@
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "gpt-4o-search-preview",
@@ -1526,7 +1526,7 @@
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "gpt-4o",
@@ -1544,9 +1544,9 @@
       },
       "pricing_updated_at": "2026-11-06",
       "pricing_source": "",
-      "deprecated": false,
+      "deprecated": true,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "gpt-5-chat",
@@ -1566,7 +1566,7 @@
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "gpt-5-mini",
@@ -1586,7 +1586,7 @@
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "gpt-5-nano",
@@ -1606,7 +1606,7 @@
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "gpt-5-pro",
@@ -1626,7 +1626,7 @@
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "gpt-5-search-api",
@@ -1646,7 +1646,7 @@
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "gpt-5.1",
@@ -1666,7 +1666,7 @@
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "gpt-5.2-pro",
@@ -1686,7 +1686,7 @@
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "gpt-5.2",
@@ -1706,7 +1706,7 @@
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "gpt-5.3-codex",
@@ -1726,7 +1726,7 @@
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "gpt-5.4-mini",
@@ -1746,7 +1746,7 @@
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "gpt-5.4-nano",
@@ -1766,7 +1766,7 @@
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "gpt-5.4-pro",
@@ -1786,7 +1786,7 @@
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "gpt-5.4",
@@ -1806,7 +1806,7 @@
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "gpt-5.5-cyber-preview",
@@ -1826,7 +1826,7 @@
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "gpt-5.5-cyber",
@@ -1846,7 +1846,7 @@
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "gpt-5.5-pro",
@@ -1866,7 +1866,7 @@
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "gpt-5.5",
@@ -1886,7 +1886,7 @@
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "gpt-5.6-cyber",
@@ -1906,7 +1906,7 @@
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "gpt-5.6-luna",
@@ -1926,7 +1926,7 @@
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "gpt-5.6-sol",
@@ -1946,7 +1946,7 @@
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "gpt-5.6-terra",
@@ -1966,7 +1966,7 @@
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "gpt-5.6",
@@ -1986,7 +1986,7 @@
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "gpt-5",
@@ -2006,7 +2006,7 @@
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "gpt-6-astra-law",
@@ -2026,7 +2026,7 @@
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "gpt-6-astra",
@@ -2046,7 +2046,7 @@
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "gpt-6-luna",
@@ -2066,7 +2066,7 @@
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "gpt-6-rosalind",
@@ -2086,7 +2086,7 @@
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "gpt-6-sol",
@@ -2106,7 +2106,7 @@
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "gpt-6.1-sol",
@@ -2126,7 +2126,7 @@
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "gpt-6.1-terra",
@@ -2146,7 +2146,7 @@
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "gpt-rosalind-discovery",
@@ -2166,7 +2166,7 @@
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "gpt-rosalind-research",
@@ -2186,13 +2186,13 @@
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "o1-mini",
       "provider": "openai",
       "display_name": "OpenAI o1 mini",
-      "model_family": "o1-mini",
+      "model_family": null,
       "modality": "text",
       "context_window": null,
       "pricing": {
@@ -2204,9 +2204,9 @@
       },
       "pricing_updated_at": "2026-11-06",
       "pricing_source": "",
-      "deprecated": false,
+      "deprecated": true,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "o1-pro",
@@ -2224,15 +2224,15 @@
       },
       "pricing_updated_at": "2026-11-06",
       "pricing_source": "",
-      "deprecated": false,
+      "deprecated": true,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "o1",
       "provider": "openai",
       "display_name": "OpenAI o1",
-      "model_family": "o1",
+      "model_family": null,
       "modality": "text",
       "context_window": null,
       "pricing": {
@@ -2244,15 +2244,15 @@
       },
       "pricing_updated_at": "2026-11-06",
       "pricing_source": "",
-      "deprecated": false,
+      "deprecated": true,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "o3-mini",
       "provider": "openai",
       "display_name": "OpenAI o3 mini",
-      "model_family": "o3-mini",
+      "model_family": null,
       "modality": "text",
       "context_window": null,
       "pricing": {
@@ -2264,9 +2264,9 @@
       },
       "pricing_updated_at": "2026-11-06",
       "pricing_source": "",
-      "deprecated": false,
+      "deprecated": true,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "o3-pro",
@@ -2286,13 +2286,13 @@
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "o3",
       "provider": "openai",
       "display_name": "OpenAI o3",
-      "model_family": "o3",
+      "model_family": null,
       "modality": "text",
       "context_window": null,
       "pricing": {
@@ -2306,7 +2306,7 @@
       "pricing_source": "",
       "deprecated": false,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     },
     {
       "model_id": "o4-mini",
@@ -2324,9 +2324,9 @@
       },
       "pricing_updated_at": "2026-11-06",
       "pricing_source": "",
-      "deprecated": false,
+      "deprecated": true,
       "tolvyn_verified": true,
-      "last_synced": "2026-11-06T08:56:31Z"
+      "last_synced": "2026-11-06T09:00:25Z"
     }
   ]
 }

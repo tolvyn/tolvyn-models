@@ -2,7 +2,7 @@
   "model_id": "o1",
   "provider": "openai",
   "display_name": "OpenAI o1",
-  "model_family": "o1",
+  "model_family": null,
   "modality": "text",
   "context_window": null,
   "pricing": {
@@ -14,7 +14,7 @@
   },
   "pricing_updated_at": "2026-11-06",
   "pricing_source": "",
-  "deprecated": false,
+  "deprecated": true,
   "tolvyn_verified": true,
-  "last_synced": "2026-11-06T08:56:31Z"
+  "last_synced": "2026-11-06T09:00:25Z"
 }
