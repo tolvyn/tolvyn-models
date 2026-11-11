@@ -1,0 +1,20 @@
+{
+  "model_id": "gemini-3.5-transcribe",
+  "provider": "google",
+  "display_name": "Gemini 3.5 Transcribe",
+  "model_family": null,
+  "modality": "audio",
+  "context_window": null,
+  "pricing": {
+    "input_per_mtok": 2.0,
+    "output_per_mtok": 12.0,
+    "cached_per_mtok": 0.0,
+    "currency": "USD",
+    "unit": "per_million_tokens"
+  },
+  "pricing_updated_at": "2026-11-11",
+  "pricing_source": "",
+  "deprecated": false,
+  "tolvyn_verified": true,
+  "last_synced": "2026-11-11T11:35:18Z"
+}

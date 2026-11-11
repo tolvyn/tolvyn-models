@@ -1,0 +1,20 @@
+{
+  "model_id": "claude-mythos-5-2",
+  "provider": "anthropic",
+  "display_name": "Claude mythos 5 2",
+  "model_family": null,
+  "modality": "text",
+  "context_window": null,
+  "pricing": {
+    "input_per_mtok": 8.0,
+    "output_per_mtok": 40.0,
+    "cached_per_mtok": 0.2,
+    "currency": "USD",
+    "unit": "per_million_tokens"
+  },
+  "pricing_updated_at": "2026-11-11",
+  "pricing_source": "",
+  "deprecated": false,
+  "tolvyn_verified": true,
+  "last_synced": "2026-11-11T11:35:18Z"
+}

@@ -1,0 +1,20 @@
+{
+  "model_id": "gemini-embedding-001",
+  "provider": "google",
+  "display_name": "Gemini Embedding",
+  "model_family": null,
+  "modality": "embedding",
+  "context_window": null,
+  "pricing": {
+    "input_per_mtok": 0.15,
+    "output_per_mtok": 0.0,
+    "cached_per_mtok": 0.0,
+    "currency": "USD",
+    "unit": "per_million_tokens"
+  },
+  "pricing_updated_at": "2026-11-11",
+  "pricing_source": "",
+  "deprecated": false,
+  "tolvyn_verified": true,
+  "last_synced": "2026-11-11T11:35:18Z"
+}

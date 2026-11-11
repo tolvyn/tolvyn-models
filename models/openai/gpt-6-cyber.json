@@ -1,0 +1,20 @@
+{
+  "model_id": "gpt-6-cyber",
+  "provider": "openai",
+  "display_name": "GPT 6 cyber",
+  "model_family": null,
+  "modality": "text",
+  "context_window": null,
+  "pricing": {
+    "input_per_mtok": 20.0,
+    "output_per_mtok": 100.0,
+    "cached_per_mtok": 2.0,
+    "currency": "USD",
+    "unit": "per_million_tokens"
+  },
+  "pricing_updated_at": "2026-11-11",
+  "pricing_source": "",
+  "deprecated": false,
+  "tolvyn_verified": true,
+  "last_synced": "2026-11-11T11:35:18Z"
+}
