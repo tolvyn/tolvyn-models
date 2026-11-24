@@ -12,9 +12,9 @@
     "currency": "USD",
     "unit": "per_million_tokens"
   },
-  "pricing_updated_at": "2026-11-23",
+  "pricing_updated_at": "2026-11-24",
   "pricing_source": "",
-  "deprecated": false,
+  "deprecated": true,
   "tolvyn_verified": true,
-  "last_synced": "2026-11-23T13:52:41Z"
+  "last_synced": "2026-11-24T14:25:11Z"
 }
